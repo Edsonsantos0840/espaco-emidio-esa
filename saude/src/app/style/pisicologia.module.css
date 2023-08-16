@@ -1,0 +1,60 @@
+
+
+.hea{
+    background-image: url('.././image/14.png');
+    background-size: cover;
+    width: 99.7%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: auto;
+} 
+.pos{
+    display: flex;
+}
+.posi{
+    width: 52%;
+    height: 500px;
+}
+.hea .ajusta{
+    width: 48%;
+}
+.hea h1{
+    color: yellowgreen;
+    padding-top: 15%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
+}
+.hea h3{
+    width: 86%;
+    margin-left: 3%;
+    color: #DCF2E8;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
+    margin-bottom: 1rem;
+}
+.hea .but{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: -10%;
+}
+.hea .but button{
+    padding: 6px;
+    background-color: rgb(219, 239, 200);
+    color: yellowgreen;
+    font-size: 1.8rem;
+    font-weight: bold;
+    min-width: 230px;
+    border: 1px solid yellowgreen;
+}
+.hea .but button:hover{
+    background-color: yellowgreen;
+    color:  rgb(255, 255, 255);
+  
+}
+

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Dancing+Script:wght@400;700&family=Indie+Flower&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Teko:wght@600;700&display=swap');
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.container .logo{
+  display: flex;
+  align-items: center;
+}
+.container .marca{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+.container h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: #124022;
+}
+.container h1 span{
+    color: yellowgreen;
+}
+.container p{
+    font-size: .8rem;
+    color: yellowgreen;
+    margin: -12px;
+}
+.container nav{
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+}
+.container a{  
+    padding: 5px 12px;
+   color: #124022 ;
+   border-radius: 5px;
+}
+.container a:hover{  
+   background-color: #124022 ;
+   color: aliceblue;
+}
