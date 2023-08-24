@@ -8,27 +8,21 @@
     background-repeat: no-repeat;
     margin: auto;
 } 
-.pos{
-    display: flex;
-}
-.posi{
-    width: 52%;
-    height: 500px;
-}
 .hea .ajusta{
-    width: 48%;
+    width: 100%;
+    background-color: #1240225e;
+    min-height: 500px;
+    margin-right: 10px;
 }
 .hea h1{
     color: yellowgreen;
     padding-top: 15%;
-    text-align: center;
+    text-align: end;
     font-family: fantasy;
     font-size: 3.5rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
 }
 .hea h3{
-    width: 86%;
-    margin-left: 3%;
     color: #DCF2E8;
     text-align: center;
     font-family: inherit;
@@ -36,12 +30,15 @@
     font-size: 2.5rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
     margin-bottom: 1rem;
+    position: absolute;
+    right: 20px;
 }
 .hea .but{
     display: flex;
-    justify-content: center;
+    justify-content:end;
     gap: 30px;
-    margin-left: -10%;
+    margin-right: 3%;
+    margin-top: 120px;
 }
 .hea .but button{
     padding: 6px;
@@ -56,5 +53,90 @@
     background-color: yellowgreen;
     color:  rgb(255, 255, 255);
   
+}
+.apresentação{
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.apresentação h2{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.apresentação span{
+    text-align:start;
+    font-family: cursive;
+    font-weight: bold;
+    color: var(--segunda-cor);
+}
+.apresentação strong{
+    font-family: cursive;
+    font-weight: 600;
+}
+.apresentação p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0rem;
+}
+.apresentação h4{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.apresentação .informações{
+    width: 90%;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #0000002b;
+    background-color: #acff2f93;
+    margin: auto;
+}
+.divisor  h2{
+    font-size: 2.3rem;
+    color: var(--terceira-cor);
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.cards .organiza{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.cards div h2{
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: var(--segunda-cor);
+    text-align: center;
+}
+.cards  h4{
+    font-size: 2.3rem;
+    color: var(--terceira-cor);
+    text-align: center;
+}
+.cards .texto{
+    width: fit-content;
+    padding: .1rem 1rem;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    box-shadow: 2px 2px 4px #0000002b;
+    background-color: #acff2f3d;
+}
+.cards p{
+    font-family: cursive;
+    font-size: .9rem;
+    color: var(--primeira-cor);
+    text-align: center;
+}
+.cards .organiza ul{
+    padding: 1rem;
+}
+.cards .organiza ul li{
+    font-family: auto;
+    list-style-type: disclosure-closed;
+    font-size: 1rem;
+    color: var(--letra1-cor);
 }
 

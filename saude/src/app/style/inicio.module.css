@@ -5,33 +5,45 @@
     width: 99.7vw;
     height: 500px;
     background-repeat: no-repeat;
-}.hea .ajusta{
-    width: 55%;
+}
+.divisor{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    margin: 2rem;
+    padding: 5px;
+}
+
+.hea .textHea{
+    width: 99.7vw;
+    background-color: #1240225e;
+    min-height: 500px;
 }
 .hea h1{
     color: yellowgreen;
     padding-top: 6%;
-    text-align: center;
+    text-align:start;
     font-family: fantasy;
     font-size: 4rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
+    margin-left: 1rem;
 }
 .hea h3{
-    width: 86%;
-    margin-left: 3%;
+    width: 48%;
     color: #DCF2E8;
-    text-align: center;
+    text-align: start;
     font-family: inherit;
     font-weight: 500;
     font-size: 3rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
     margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 .hea .but{
     display: flex;
-    justify-content: center;
+    justify-content:left;
     gap: 30px;
-    margin-left: -10%;
+    margin-left: 2%;
 }
 .hea .but button{
     padding: 6px;
@@ -47,4 +59,71 @@
     color:  rgb(255, 255, 255);
   
 }
+.h2{
+    color: var(--primeira-cor);
+    font-size: 3rem;
+    text-align: center;
+}
 
+.colunas{
+    display: flex;
+    flex-direction: column;
+}
+.colunas .dTela{
+    display: flex;
+}
+.organiza{
+    display: flex;
+    gap: 1%;
+}
+.colunas h2{
+    font-size: 2.3rem;
+    color: var(--terceira-cor);
+    text-align: center;
+}
+.colunas .organiza ul{
+   
+    width: 110%;
+}
+.colunas .organiza ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disclosure-closed;
+    font-size: .9rem;
+}
+ .colunas button {
+    background-color: yellowgreen;
+    color:  rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 475px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
+    margin: .6rem auto;
+    }
+    .colunas  button:hover{
+    background-color: rgb(219, 239, 200);
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+.colunas .alinha{
+    display: flex;
+    flex-direction: column;
+}
+.dTela .ima{
+    padding: 0px 5px;
+}
+.apresentação{
+    margin: 1rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.064);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.apresentação h2{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
+}
+.apresentação h4{
+   font-family: Arial, Helvetica, sans-serif;
+}

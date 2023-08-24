@@ -2,24 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  
+--primeira-cor: #1C5931;
+--segunda-cor: #124022;
+--terceira-cor: yellowgreen;
+--letra1-cor: #369927;
+--letra2-cor: #9BBFAB;
+--letra3-cor: #5E8C72;
 
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
   
     --primeira-cor: #1C5931;
   --segunda-cor: #124022;
-  --letra1-cor: #DCF2E8;
+  --terceira-cor: yellowgreen;
+  --letra1-cor: #369927;
   --letra2-cor: #9BBFAB;
   --letra3-cor: #5E8C72;
 
   }
 }
 
-.contain{
- position: relative;
-  background-color: #1240225e;
-  min-height: 500px;
-  z-index: 1;
-  margin-top: -15px;
-}
