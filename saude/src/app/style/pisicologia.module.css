@@ -97,13 +97,18 @@
     text-align: center;
 }
 .cards{
+    max-width: 98%;
+    margin:.5rem auto;
     display: flex;
     flex-direction: column;
+    border: 2px solid greenyellow;
+    box-shadow: 2px 2px 4px #0000002b;
+    background-color: #acff2f22;
+    border-radius: 20px;
 }
 .cards .organiza{
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
 }
 .cards div h2{
     font-family: cursive;
@@ -117,12 +122,10 @@
     text-align: center;
 }
 .cards .texto{
+    width: 120%;
     width: fit-content;
     padding: .1rem 1rem;
-    border-radius: 10px;
-    border: 2px solid greenyellow;
-    box-shadow: 2px 2px 4px #0000002b;
-    background-color: #acff2f3d;
+   
 }
 .cards p{
     font-family: cursive;

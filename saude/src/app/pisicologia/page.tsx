@@ -73,16 +73,11 @@ export default function pisicologia() {
             <ul>
               <li>Insônia: A insônia é caracterizada pela dificuldade em iniciar ou manter o sono, resultando em sono de má qualidade. Fatores psicológicos, como estresse, ansiedade, depressão e preocupações excessivas, podem desempenhar um papel significativo na insônia..</li>
               <li>Pesadelos e Terrores Noturnos: Distúrbios de sono como pesadelos e terrores noturnos podem ser desencadeados por estresse, traumas passados ​​ou ansiedade. Eles podem causar despertares frequentes durante a noite.</li>
-              <li>Edema nas extremidades, especialmente nos tornozelos, pode ser um sinal de má circulação.</li>
-              <li> Sensações de formigamento, dormência ou alfinetadas nas extremidades podem indicar problemas circulatórios.</li>
-              <li>  Úlceras que não cicatrizam facilmente nas pernas ou pés podem ser causadas por uma circulação deficiente.</li>
-              <li>  Sensação de pernas cansadas, pesadas ou doloridas, especialmente após ficar em pé por longos períodos.</li>
-              <li> As mãos e os pés podem ficar frios ao toque devido ao fluxo sanguíneo reduzido.</li>
-              <li>  A redução da pulsação nas extremidades pode ser um sinal de fluxo sanguíneo comprometido.</li>
-              <li>   Em casos mais graves, má circulação pode afetar o fluxo sanguíneo para o coração, causando dor no peito ou angina.</li>
-              <li>    A circulação inadequada pode afetar a capacidade do corpo de se curar rapidamente após lesões ou cirurgias.</li>
-              <li>   Unhas quebradiças, enfraquecidas ou crescimento mais lento, bem como queda de cabelo, podem estar relacionados à circulação deficiente.</li>
-              <li>    Nos homens, a má circulação sanguínea pode afetar a função erétil.</li>
+              <li>Sonambulismo: O sonambulismo envolve atividades motoras durante o sono, como andar ou falar. Fatores psicológicos, como ansiedade e estresse, podem contribuir para episódios de sonambulismo.</li>
+              <li> Bruxismo: O bruxismo é o ranger ou apertar os dentes durante o sono. O estresse e a ansiedade podem desencadear ou piorar esse hábito.</li>
+              <li> Síndrome de Fadiga Crônica: Embora a relação entre a síndrome de fadiga crônica e os problemas de sono seja complexa, muitos indivíduos com essa condição enfrentam distúrbios de sono, como insônia e sono não reparador. Questões psicológicas, como depressão e ansiedade, também estão frequentemente associadas a essa síndrome.</li>
+              
+             
             </ul>
           </div>
         </div>
@@ -91,32 +86,187 @@ export default function pisicologia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A massoterapia, também conhecida como massagem terapêutica, é uma técnica que envolve a manipulação dos tecidos moles do corpo, como músculos, tendões, ligamentos e tecido conjuntivo, com o objetivo de promover o relaxamento, aliviar a dor, melhorar a circulação sanguínea e linfática, e proporcionar uma sensação geral de bem-estar. Ela pode desempenhar um papel importante no tratamento de lesões, mas é importante entender seus benefícios e limitações
-              A massoterapia pode ser benéfica no tratamento de lesões de várias maneiras:</p>
+            <h2>Dicas Extras</h2>
+            <p>É importante abordar os problemas de sono com uma abordagem holística, considerando tanto os fatores físicos quanto os psicológicos. Se você tiver problemas de sono, é aconselhável nos procurar, para avaliar suas preocupações e desenvolver um plano de tratamento adequado.</p>
             <ul>
-              <li>Muitas lesões resultam em tensão muscular e contraturas. A massagem terapêutica pode ajudar a relaxar os músculos tensos, melhorando a amplitude de movimento e reduzindo a dor associada à tensão</li>
-              <li>A massagem estimula a circulação sanguínea e linfática, o que pode ajudar na remoção de resíduos metabólicos e na entrega de nutrientes essenciais às áreas lesionadas. Isso pode acelerar o processo de cicatrização.</li>
-              <li>A massagem pode estimular a liberação de endorfinas, que são neurotransmissores que atuam como analgésicos naturais. Isso pode ajudar a reduzir a percepção da dor.</li>
+              <li>Mudanças de horário e Jet Lag: A adaptação a novos fusos horários pode ser difícil devido a desregulações no ritmo circadiano. Fatores psicológicos, como a adaptação emocional a um novo ambiente, também podem afetar o sono durante as mudanças de horário.
+              </li>
+              <li>Higiene do Sono Inadequada: Comportamentos e hábitos inadequados antes de dormir podem resultar em dificuldades para adormecer. Fatores psicológicos, como estresse e ansiedade, podem influenciar esses comportamentos.</li>
+              <li>Ronco e Apneia do Sono: Embora esses problemas estejam mais relacionados a questões físicas, eles também podem ser agravados por fatores psicológicos, como excesso de peso, estresse e ansiedade.</li>
               <li>  A massoterapia pode auxiliar na mobilização do tecido cicatricial, ajudando a prevenir a formação de aderências e promovendo a regeneração saudável dos tecidos.</li>
-              <li>  Algumas lesões podem causar compressão dos nervos, resultando em dor e desconforto. A massagem pode ajudar a liberar a pressão sobre os nervos, aliviando os sintomas..</li>
+              <li>  Excesso de Estresse e Ansiedade: A ansiedade e o estresse psicológico podem afetar diretamente a qualidade do sono, tornando difícil relaxar e adormecer.</li>
+              <li> Depressão e Sono: A depressão pode depender tanto da qualidade quanto do padrão de sono. Algumas pessoas experimentam insônia, enquanto outras podem dormir tranquilamente. Alterações nos níveis de neurotransmissores no cérebro relacionadas ao humor também podem afetar os ritmos circadianos e a regulação do sono.</li>
             </ul>
           </div>
-          <Card2 titulo='Recuperação de Lesões ' imagem={im18} />
+          <Card2 titulo='Problemas com o sono ' imagem={im18} />
         </div>
       </div>
       <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Recuperação de Lesões ' imagem={im27} />
+          <Card2 titulo='Transtornos de Ansiedade ' imagem={im27} />
           <div className={style.texto}>
-            <h2>Dica extra.</h2>
-            <p>A recuperação de lesões é um processo que envolve a restauração dos tecidos afetados, a redução da dor, a restauração da função normal e a prevenção de complicações futuras. O tempo e os métodos de recuperação podem variar dependendo do tipo e gravidade da lesão. Aqui estão algumas diretrizes gerais para ajudar na recuperação de lesões:</p>
+            <h2>Sintomas.</h2>
+            <p>Os transtornos de ansiedade são um grupo de condições de saúde mental caracterizadas por sentimentos intensos e persistentes de ansiedade, medo ou preocupação que podem interferir significativamente na vida diária de uma pessoa. Esses transtornos podem variar em gravidade, sintomas e impacto, mas todos eles envolvem uma resposta de ansiedade que é desproporcional às situações ou eventos que a desencadeiam. Aqui estão alguns dos transtornos de ansiedade mais comuns: </p>
             <ul>
-              <li>Em muitos casos, um período de descanso é necessário para permitir que o corpo se recupere. Isso pode envolver evitar atividades que agravem a lesão e permitir que os tecidos lesionados se curem.</li>
-              <li>Para lesões agudas, como entorses, usar a técnica R.I.C.E. (Repouso, Gelo, Compressão, Elevação) pode ser útil para reduzir o inchaço e a inflamação.</li>
-              <li>Dependendo da gravidade da lesão, o médico pode prescrever medicamentos para aliviar a dor, reduzir a inflamação ou relaxar os músculos. Tratamentos como fisioterapia, massoterapia e acupuntura podem ser recomendados para auxiliar na recuperação.</li>
-              <li>   Conforme a lesão melhora, o profissional de saúde pode recomendar exercícios de fortalecimento e alongamento para gradualmente recuperar a força e a flexibilidade. É importante seguir as orientações para evitar agravar a lesão.</li>
-              <li>   Uma dieta equilibrada rica em nutrientes, vitaminas e minerais pode ajudar a apoiar a recuperação e a regeneração dos tecidos..</li>
+              <li>Transtorno de Ansiedade Generalizada (TAG)**: Caracterizado por preocupações excessivas e persistentes sobre várias áreas da vida, como saúde, trabalho, relacionamentos, entre outros, por pelo menos seis meses. 2</li>
+             
+              <li>Transtorno de Ansiedade Social (Fobia Social)**: Caracteriza-se por medo intenso e persistente de situações sociais ou de desempenho, devido ao medo de ser julgado, humilhado ou envergonhado. </li>
+              <li>   Transtorno de Ansiedade de Separação**: Mais comum em crianças, mas também pode afetar adultos, envolve um medo excessivo de se separar</li>
+              <li> Transtorno de Ansiedade de Status : Envolver a preocupação excessivamente com situações de avaliação ou julgamento social, como falar em público ou conhecer pessoas novas.</li>
+              <li> Transtorno de Ansiedade de Especulação (Tricotilomania) : Caracterizado pela compulsão de arrancar os próprios cabelos, resultando em perda significativa de cabelo e, frequentemente, causando angústia.</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <div className={style.texto}>
+            <h2>Dicas extras.</h2>
+            <p>O tratamento para transtornos de ansiedade pode envolver uma combinação de terapia . Nós podemos te ajudar em cada uma dessas situações.</p>
+            <ul>
+               <li>Transtorno do Pânico**: Envolve ataques de pânico inesperados e recorrentes, acompanhados de sintomas físicos e emocionais, como batimentos cardíacos acelerados, sudorese, tremores e uma sensação iminente de perigo. </li>
+              <li>   Transtorno de Ansiedade de Performance</li>
+
+              <li> Transtorno de Ansiedade de Saúde (Hipocondria) : Envolve preocupação excessiva com a saúde e a crença persistente de ter uma doença grave, mesmo quando não há evidências médicas para sustentá-la</li>
+              <li> Transtorno de Ansiedade Seletiva (TAS) : Também conhecido como Mutismo Seletivo, é mais comum em crianças. Envolver uma incapacidade persistente de falar em determinadas situações sociais</li>
+              <li> Agorafobia : Este transtorno envolve ansiedade intensa em situações ou lugares nos quais uma pessoa sente que escapar ou obter ajuda seria difícil ou embaraçoso, caso ocorra um ataque de pânico ou sintomas semelhantes.</li>
+              <li> Transtorno de Ansiedade Noturna (Pesadelos e Terrores Noturnos) : Caracterizado por pesadelos frequentes ou episódios de terror noturno que podem perturbar ou dormir e causar ansiedade.</li>
+             
+             
+
+            </ul>
+          </div>
+          <Card2 titulo='Transtornos de Ansiedade' imagem={im28} />
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <Card2 titulo='Transtornos do Humor' imagem={im29} />
+          <div className={style.texto}>
+            <h2>Sintomas</h2>
+            <p>Os transtornos do humor, também conhecidos como transtornos afetivos, são condições psiquiátricas que afetam a maneira como uma pessoa sente emoções e lida com elas. Eles podem influenciar a forma como alguém experimenta o humor, a energia, os pensamentos e o comportamento. Dois dos transtornos de humor mais conhecidos são a depressão e o transtorno bipolar. Vou explicar um pouco sobre cada um deles:</p>
+            <ul>
+              <li> Transtorno Depressivo Maior (Depressão) : A depressão é caracterizada por sentimentos persistentes de tristeza, perda de interesse ou prazer em atividades que costumavam ser planejadas, alterações no apetite e no sono, fadiga, dificuldade de concentração, sentimentos de culpa ou inutilidade e, em casos mais graves, pensamentos de morte ou suicídio. A depressão pode ser desencadeada por fatores genéticos, químicos e ambientais.</li>
+              <li> Transtorno Bipolar : O transtorno bipolar envolve oscilações extremas no humor, que vão desde episódios de depressão profunda até episódios de mania ou hipomania. Durante uma fase</li>
+
+              <li> Transtorno Depressivo Persistente (Distimia) : A distimia é um tipo de depressão crônica de baixo grau que persiste por longos períodos de tempo, geralmente por mais de dois anos. Os sintomas são semelhantes aos da depressão maior, mas menos intensos. Pode ser difícil para uma pessoa reconhecer que está deprimida, pois os sintomas são menos graves e mais persistentes.</li>
+            
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <div className={style.texto}>
+            <h2>Dicas Extras.</h2>
+            <p>É importante lembrar que esses transtornos podem ser tratados com sucesso com terapia, medicação ou uma combinação de ambos. Se você ou alguém que você conhece está apresentando sintomas consistentes com um transtorno de humor, é aconselhável nos procurar  para avaliação e tratamento adequado.</p>
+            <ul>
+              <li> Transtorno Desafiador Opositivo (TDO) : Embora não seja um transtorno de humor, o TDO é um transtorno comportamental que pode estar associado a alterações de humor. Envolver um padrão persistente de comportamento, hostil e desobediente em crianças e adolescentes. Pode incluir irritabilidade intensa e explosões de raiva desproporcionais.</li>
+              <li> Transtorno Disfórico Pré-Menstrual (TDPM) : O TDPM é caracterizado por mudanças de humor acentuadas e sintomas físicos que ocorrem durante o ciclo menstrual. Esses sintomas podem incluir irritabilidade, tensão, fadiga, alterações no sono e no apetite. É mais grave que os sintomas normais associados à menstruação.</li>
+              <li> Transtorno de Humor Induzido por Substância : O uso ou abuso de substância, como álcool, drogas ilícitas ou certos medicamentos, pode levar a alterações significativas no humor. Por exemplo, o uso excessivo de álcool pode contribuir para a depressão, enquanto algumas drogas estimulantes podem desencadear episódios de mania.</li>
+              <li> Transtorno do Humor devido a uma Condição Médica : Certas condições médicas, como distúrbios da tireoide, doenças neurológicas ou outras condições de saúde, podem causar alterações no humor. Quando os sintomas de humor são diretamente atribuíveis a uma condição médica, é revelado um transtorno de humor devido a uma condição médica.</li>
+             
+            </ul>
+          </div>
+          <Card2 titulo='Transtornos do Humor' imagem={im30} />
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <Card2 titulo='Transtorno Alimentar.' imagem={im33} />
+          <div className={style.texto}>
+            <h2>Sintomas</h2>
+            <p>Os Transtornos do Comportamento Alimentar (TCA) são condições psicológicas que envolvem padrões anormais de alimentação e pensamentos perturbados em relação à alimentação, peso, corpo e imagem corporal. Esses transtornos podem ter sérias implicações para a saúde física e mental das pessoas afetadas. Alguns dos transtornos
+             Aqui estão algumas informações sobre esses transtornos:</p>
+            <ul>
+              <li>Anorexia Nervosa: Pessoas com anorexia nervosa têm uma preocupação intensa em perder peso e uma percepção distorcida de seu próprio corpo, geralmente acreditando que estão acima do peso, mesmo que estejam abaixo do peso saudável. Eles tendem a restringir severamente a ingestão de alimentos, o que pode levar a uma desnutrição grave e outros problemas de saúde.</li>
+              <li> Bulimia Nervosa: Indivíduos com bulimia nervosa apresentam episódios de compulsão alimentar, nos quais consomem grandes quantidades de alimentos em um curto período de tempo,</li>
+
+              <li>Transtorno da Compulsão Alimentar Periódica: Nesse transtorno, ocorrência de episódios de compulsão alimentar sem os comportamentos compensatórios observados na bulimia nervosa. Pessoas com esse transtorno vêm em excesso de forma descontrolada e, muitas vezes, sentem vergonha e culpa após esses</li>
+              <li> É importante destacar que o TCA não se ressente
+
+O tratamento para os TCA geralmente envolve uma abordagem multidisciplinar
+
+Se você ou alguém que você conhece está lutando com um Transtorno do Comportamento Alimentar,proucure ajuda profissional o mais rápido possível.</li>
+             
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <div className={style.texto}>
+            <h2>Dicas Extras.</h2>
+            <p>É importante destacar que, embora possa haver sobreposições e nuances entre esses transtornos, cada um tem suas próprias características específicas e critérios diagnósticos. O diagnóstico e tratamento adequados devem ser feitos por profissionais de saúde mental e médicos especializados.</p>
+            <ul>
+              <li>Transtorno de Evitação/Restrição da Ingestão de Alimentos: Este é um transtorno menos conhecido, no qual uma pessoa evita certos alimentos ou grupos de alimentos devido a sensações alimentares percebidas, aversões sensoriais ou preocupações com consequências negativas na saúde ou no peso.</li>
+              <li> Transtorno de Ruminação: Esse transtorno envolve regurgitação repetida de alimentos após as refeições, seguida de remastigação, ressalva ou descarte de alimentos. Geralmente não está associado a uma condição médica específica e pode afetar crianças e adultos.</li>
+
+              <li>Ortorexia: Embora ainda não seja oficialmente reconhecida como um transtorno alimentar nos manuais diagnósticos, a ortorexia envolve uma obsessão por comer alimentos considerados saudáveis. Pessoas com ortorexia podem evitar certos grupos de alimentos e se preocupar com a pureza e a qualidade dos alimentos que consomem.</li>
+              <li> Transtorno da Alimentação Noturna: Pessoas com esse transtorno têm um padrão de consumo alimentar significativo durante a noite, muitas vezes acordando para comer e consumindo a maioria das calorias nesse período. Esse padrão está associado a problemas de sono e alterações no metabolismo.</li>
+
+
+            </ul>
+          </div>
+          <Card2 titulo='Transtornos do Comportamento Alimentar' imagem={im34} />
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <Card2 titulo='Transtornos do Controle dos Impulsos' imagem={im37} />
+          <div className={style.texto}>
+            <h2>Sintomas</h2>
+            <p>Os Transtornos do Controle dos Impulsos são um grupo de condições psiquiátricas descritas pela dificuldade em resistir a impulsos ou desejos irresistíveis, levando a comportamentos repetitivos e muitas vezes agressivos. Esse                       
+Aqui estão alguns exemplos de Transtornos do Controle dos Impulsos:</p>
+            <ul>
+
+              <li> Transtorno de Jogo: Também conhecido como jogo patológico, é caracterizado por um padrão persistente e recorrente de comportamento de jogo, apesar das consequências adversárias. Pode levar a problemas financeiros, emocionais e sociais graves.</li>
+              <li> Transtorno Explosivo Intermitente: Envolve episódios de agressão verbal ou física desproporcional em relação à situação, desencadeados por um estresse mínimo. Pessoas com esse transtorno têm dificuldade em controlar sua raiva.</li>
+              <li> Cleptomania: Caracteriza-se pelo impulso irresistível de roubar objetos desnecessários, geralmente sem valor monetário, mesmo quando não há motivo financeiro para fazê-lo. Uma pessoa pode experimentar tensão antes de cometer o roubo e quebrar temporariamente após.</li>
+              <li>Transtorno da Compulsão Alimentar Periódica: Envolve episódios recorrentes de compulsão alimentar, onde uma grande quantidade de comida é consumida em um curto período, acompanhada de uma sensação de falta de controle. Diferencia-se da bulimia nervosa porque não é seguida por comportamentos compensatórios,</li>
+              <li>Transtorno de Compra Compulsiva: Caracteriza-se por compras excessivas e impulsivas que resultam em estresse financeiro ou acúmulo excessivo de objetos.</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <div className={style.texto}>
+            <h2>Dicas extras.</h2>
+            <p>É importante observar que o diagnóstico de Transtornos do Controle dos Impulsos é realizado por profissionais de saúde mental com base em critérios específicos em diagnósticos manuais, como o DSM-5 (Manual Diagnóstico e Estatístico de Transt
+
+O tratamento desses transtornos pode variar de pessoa para pessoa, dependendo da gravidade e da necessidade</p>
+            <ul>
+              <li>Transtorno de Dermatilomania (ou Escoriação Compulsiva): Nesse transtorno, a pessoa sente a necessidade irresistível de coçar, beliscar, cutucar ou espremer a pele repetidamente, muitas vezes resultando em lesões na pele. Isso ocorre frequentemente como uma resposta à ansiedade.</li>
+              <li> Transtorno de Impulsividade: Embora não seja um diagnóstico formal, a impulsividade excessiva pode ser um sintoma subjacente em muitos transtornos mentais, como Transtorno de Déficit de Atenção</li>
+
+              <li> Transtorno de Internet e Tecnologia: À medida que a tecnologia se torna mais central em nossas vidas, algumas pessoas podem desenvolver padrões de uso compulsivos</li>
+             
+
+            </ul>
+          </div>
+          <Card2 titulo='Transtornos do Controle dos Impulsos' imagem={im35} />
+        </div>
+      </div>
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <Card2 titulo='Relacionados ao Uso de Substâncias' imagem={im38} />
+          <div className={style.texto}>
+            <h2>Sintomas</h2>
+            <p>Os Transtornos Relacionados ao Uso de Substâncias (TRUS), também conhecidos como Transtornos Relacionados ao Uso de Drogas, são um grupo de condições de saúde mental que envolve o uso prejudicial ou problemático de substâncias psicoativas, como álcool, tabaco, cannabis, cocaína, opioides</p>
+            <ul>
+              <li> Transtorno pelo Uso de Álcool: Envolve o consumo excessivo e problemático de álcool, causando dificuldades sociais, profissionais, de saúde e legais.</li>
+              <li> Transtorno pelo Uso de Substâncias Psicoativas: Isso inclui o uso problemático de uma variedade de drogas, como maconha, cocaína, anfetaminas, alucinógenos, entre outras.</li>
+
+              <li> Transtorno pelo Uso de Opioides: Envolve o uso problemático de opioides, incluindo substâncias como heroína e analgésicos prescritos.</li>
+              <li>  Transtorno pelo Uso de Estimulantes: Relacionado ao uso excessivo de estimulantes, como cocaína e anfetaminas, com consequências adversas.</li>
+              <li>  Transtorno pelo uso de sedativos/hipnóticos/ansiolíticos: Isso se refere ao uso problemático de substâncias como benzodiazepínicos, que são frequentemente prescritos para ansiedade e insônia.</li>
+              <li> É importante notar que o diagnóstico de um TRUS leva em consideração critérios específicos específicos nos sistemas de classificação (CID-10, DSM-5) e requer a avaliação de um profissional de saúde mental qualificado. O tratamento para os TRUS pode incluir terapia comportamental, terapia cognitivo-comportamental, programas de reabilitação, suporte social e, em alguns casos, medicamentos.</li>
+
             </ul>
           </div>
         </div>
@@ -125,81 +275,43 @@ export default function pisicologia() {
         <div className={style.organiza}>
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>A massoterapia pode desempenhar um papel importante na recuperação dos movimentos, especialmente após lesões, cirurgias ou condições médicas que afetam a mobilidade e a funcionalidade do corpo. A massoterapia, também conhecida como terapia de massagem, envolve a manipulação dos tecidos moles do corpo, como músculos, tendões e ligamentos, com o objetivo de melhorar a circulação sanguínea, relaxar a musculatura, reduzir a dor e promover a recuperação.
-              Aqui estão algumas maneiras pelas quais a massoterapia pode ajudar na recuperação dos movimentos.</p>
+            <p>
+Os transtornos de personalidade são padrões persistentes e inflexíveis de pensamento, comportamento e emoções que alteram significativamente as expectativas culturais e interferem no funcionamento social, ocupacional ou pessoal de um indivíduo. Esses padrões geralmente começam a se manifestar na adolescência ou no início da idade adulta e tendem a ser resultantes ao longo do tempo.</p>
             <ul>
-              <li>Lesões e tensões podem causar espasmos e tensão muscular. A massagem terapêutica ajuda a relaxar os músculos tensos, melhorando a flexibilidade e a amplitude de movimento.</li>
-              <li> A massagem estimula o fluxo sanguíneo para as áreas tratadas, o que pode aumentar o suprimento de nutrientes e oxigênio aos tecidos lesionados, auxiliando na cicatrização e recuperação.</li>
+              <li> Cluster A - Transtornos excêntricos ou bizarros:
 
-              <li> Após cirurgias ou lesões graves, podem se formar aderências e cicatrizes nos tecidos, limitando a mobilidade. A massoterapia pode ajudar a quebrar essas aderências e tornar os tecidos mais flexíveis.</li>
-              <li>  A massagem pode liberar endorfinas, que são substâncias químicas naturais do corpo que reduzem a sensação de dor. Isso pode ser especialmente útil para pessoas que estão lidando com dor crônica resultante de lesões.</li>
-              <li>  A massagem pode ajudar a melhorar a drenagem linfática, o que é benéfico para reduzir o inchaço e a retenção de fluidos em áreas afetadas.</li>
-              <li>  A recuperação de movimentos muitas vezes é acompanhada por estresse e ansiedade. A massoterapia promove relaxamento e ajuda a reduzir o estresse, o que pode contribuir para a recuperação global.</li>
-              <li> : A massagem pode ajudar a pessoa a se tornar mais consciente de sua postura, movimentos e padrões de tensão. Isso pode levar a um uso mais eficiente do corpo, prevenindo futuras lesões.</li>
+Transtorno de Personalidade Paranóide: Caracterizado por desconfiança excessiva, suspeitas infundadas e interpretações distorcidas dos interesses dos outros.
+Transtorno de Personalidade Esquizoide: Indivíduos com esse transtorno tendem a ser isolados socialmente, têm dificuldade em expressar emoções e mostram pouco interesse em relacionamentos interpessoais.
+Transtorno de Personalidade Esquizotípica: Caracterizado por padrões de pensamento e comportamento estranhos, aparentemente excêntricos e desconforto social.</li>
+              <p>Cluster B - Transtornos dramáticos, emocionais ou imprevisíveis:
+
+Transtorno de Personalidade Antissocial: Pessoas com esse transtorno têm pouco respeito pelas normas sociais, podem ser manipuladoras, impulsivas e frequentemente têm histórico de comportamento violento.
+Transtorno de Personalidade Borderline: Caracterizado por instabilidade emocional intensa, relacionamentos tumultuados, impulsividade e autoimagem instável.
+Transtorno de Personalidade Histriônica: Indivíduos com esse transtorno buscam constantemente atenção e um desejo excessivo de serem o centro das atenções. Seu comportamento pode ser teatral e emocionalmente superficial.
+Transtorno de Personalidade Narcisista: Caracterizado por um senso inflado de importância pessoal, falta de empatia e busca constante por admiração.</p>
+
 
             </ul>
           </div>
-          <Card2 titulo='Flexibilidade e Amplitude de Movimento' imagem={im30} />
+          <Card2 titulo='Transtorno de personalidade' imagem={im40} />
         </div>
       </div>
+
+
+
       <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Síndrome do Túnel do Carpo ' imagem={im31} />
+          <Card2 titulo='Transtorno de Personalidade)' imagem={im41} />
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>A Síndrome do Túnel do Carpo (STC) é uma condição médica que afeta o punho e a mão, causada pela compressão do nervo mediano à medida que ele passa através do túnel do carpo, uma estrutura estreita no pulso. O nervo mediano é responsável por transmitir sinais sensoriais e motores para a maioria dos dedos da mão, exceto o dedo mínimo.
-              A compressão do nervo mediano pode ser causada por uma variedade de fatores, incluindo:</p>
+            <p>Vale ressaltar que o diagnóstico de transtornos de personalidade deve ser feito por profissionais de saúde mental específicos, após uma avaliação cuidadosa do histórico do indivíduo e de seus sintomas. O tratamento pode envolver terapia individual, terapia de grupo e, em alguns casos, medicamentos para tratar sintomas específicos, como depressão ou ansiedade associada a transtornos de personalidade.</p>
             <ul>
-              <li> Inchaço dos tecidos circundantes, frequentemente associado a condições como artrite reumatoide.</li>
-              <li> Fraturas no pulso, lesões repetitivas ou impactos diretos podem contribuir para a compressão.</li>
+            <li>Cluster C - Transtornos ansiosos ou temerosos:
 
-              <li> Movimentos frequentes e repetitivos do pulso, como digitação ou uso de ferramentas manuais, podem desempenhar um papel no desenvolvimento da STC.</li>
-              <li>  Algumas pessoas podem ter uma anatomia do túnel do carpo que naturalmente torna o nervo mediano mais suscetível à compressão.</li>
-              <li>  Mudanças hormonais, como as que ocorrem durante a gravidez, podem afetar os tecidos ao redor do nervo mediano e contribuir para o desenvolvimento da STC.</li>
-              <li> Geralmente afetando os dedos polegar, indicador, médio e metade do anelar.</li>
-              <li>  Dificuldade em segurar objetos pequenos ou realizar tarefas que envolvam movimentos finos com a mão.</li>
+Transtorno de Personalidade Evitativa: Pessoas com esse transtorno tendem a evitar situações sociais devido a sentimentos de inadequação e medo de infecção.
+Transtorno de Personalidade Dependente: Caracterizado por uma necessidade excessiva de ser cuidado e apoiado pelos outros, levando a comportamentos submissos e dificuldade em tomar decisões.
+Transtorno de Personalidade Obsessivo-Compulsiva: Pessoas com esse transtorno são preocupadas com a ordem, perfeccionismo e controle, o que pode interferir em seu funcionamento cotidiano.</li>
 
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>Dor muscular e tensão são duas condições frequentemente relacionadas ao sistema musculoesquelético. Vou explicar cada uma delas:</p>
-            <ul>
-              <li> Dor Muscular:
-                A dor muscular é uma sensação desconfortável ou dolorosa que ocorre nos músculos do corpo. Ela pode ser resultado de várias causas, incluindo:</li>
-              <li> Exercício Intenso: Após um treino intenso, é comum sentir dor muscular, conhecida como dor muscular de início tardio (DMIT). Ela geralmente ocorre devido a pequenos danos nas fibras musculares durante o exercício.</li>
-
-              <li>Lesões: Lesões como distensões (alongamentos excessivos) ou rupturas de fibras musculares podem causar dor aguda e intensa.</li>
-              <li> Postura e Uso Repetitivo: Má postura ou uso repetitivo de certos grupos musculares, como em trabalhos que envolvem movimentos repetitivos, podem levar a dores musculares crônicas.</li>
-              <li>  Estresse e Tensão: O estresse emocional pode levar à tensão muscular, causando dor e desconforto.</li>
-              <li> A tensão muscular refere-se a uma condição em que os músculos estão contraídos ou enrijecidos de forma excessiva. Isso pode resultar em sensações de rigidez, desconforto e dor. </li>
-              <li>  Altos níveis de estresse emocional ou ansiedade podem levar à tensão muscular. A resposta do corpo ao estresse pode causar contração muscular involuntária.</li>
-
-            </ul>
-          </div>
-          <Card2 titulo='Dor Muscular e Tensão' imagem={im28} />
-        </div>
-      </div>
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Dor Crônica' imagem={im29} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>Dor crônica é um tipo de dor que persiste por um período prolongado, geralmente por mais de três meses, ou mesmo além do tempo de cicatrização esperado para uma lesão ou condição. Ela pode afetar várias áreas do corpo e pode ser causada por uma variedade de fatores. A dor crônica é mais do que apenas uma resposta ao dano físico; muitas vezes, está relacionada a alterações complexas nos sistemas nervoso e musculoesquelético.Alguns exemplos de condições que podem resultar em dor crônica incluem:</p>
-            <ul>
-              <li>Dor nas Costas Crônica: Pode ser causada por problemas como hérnia de disco, osteoartrite, espondilite anquilosante ou lesões antigas.</li>
-              <li> Enxaqueca ou Dor de Cabeça Crônica: Pessoas que sofrem de enxaquecas frequentes podem experimentar dor crônica.</li>
-
-              <li>Síndrome da Dor Regional Complexa (SDRC): Também conhecida como distrofia simpática reflexa, é uma condição que causa dor intensa e mudanças na pele.</li>
-              <li> Artrite Reumatoide: Uma doença autoimune que causa inflamação nas articulações e pode levar à dor crônica.</li>
-              <li>  Neuropatia Diabética: Danos aos nervos causados pelo diabetes podem resultar em dor crônica, formigamento e dormência.</li>
-              <li> Dor Crônica Pós-Cirúrgica: Algumas cirurgias podem levar à dor persistente após o procedimento.</li>
-              <li>  Síndrome do Intestino Irritável (SII): Pode causar dor abdominal crônica, inchaço e alterações nos hábitos intestinais.</li>
-              <li> A abordagem para o tratamento da dor crônica geralmente é multifacetada e pode envolver uma combinação de métodos, dependendo da causa subjacente da dor</li>
 
             </ul>
           </div>
@@ -209,130 +321,102 @@ export default function pisicologia() {
         <div className={style.organiza}>
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>Os problemas de sono, também conhecidos como distúrbios do sono, são condições que afetam a qualidade e/ou quantidade do sono de uma pessoa. Existem vários tipos de distúrbios do sono que podem afetar diferentes aspectos do sono, resultando em dificuldades para adormecer, permanecer dormindo ou obter um sono reparador. Alguns dos problemas de sono mais comuns incluem:</p>
+            <p>O estresse é uma resposta do organismo a qualquer demanda ou pressão que exija ajustes. Pode ser causado por eventos positivos ou negativos e é uma parte natural da vida. No entanto, quando o estresse se torna excessivo ou persistente, pode levar a problemas de saúde física e mental.</p>
             <ul>
-              <li>Insônia: É caracterizada pela dificuldade em adormecer ou permanecer dormindo, levando a um sono inadequado e não reparador. Pode ser causada por fatores como estresse, ansiedade, depressão, uso excessivo de dispositivos eletrônicos antes de dormir ou má higiene do sono.</li>
-              <li> Apneia do sono: A apneia do sono é um distúrbio em que a pessoa para de respirar temporariamente durante o sono, muitas vezes devido ao colapso das vias respiratórias. Isso pode resultar em despertares frequentes e interrupções no padrão de sono, levando a sonolência diurna, falta de energia e problemas de saúde a longo prazo.</li>
+              <li> O estresse traumático, por sua vez, refere-se a uma forma mais intensa e de tensão de estresse, geralmente causada por eventos traumáticos. Um evento traumático é algo que ameaça a integridade física ou psicológica de uma pessoa, causando reações emocionais e psicológicas intensas. Alguns exemplos de eventos traumáticos incluem acidentes graves, abuso físico ou sexual, desastres naturais, violência, guerra e outros eventos extremamente perturbadores.
 
-              <li>Síndrome das pernas inquietas: Caracteriza-se por uma sensação desconfortável nas pernas, muitas vezes acompanhada de um impulso irresistível de movê-las. Isso pode interferir no sono, pois as pessoas afetadas frequentemente sentem a necessidade de se mover, o que pode dificultar o adormecimento.</li>
-              <li> Distúrbios do ritmo circadiano: O ritmo circadiano é o relógio biológico interno que regula o ciclo de sono-vigília. Distúrbios como o jet lag (resultante de viagens atravessando fusos horários) e o transtorno do ritmo circadiano são exemplos de problemas que podem afetar esse ritmo, levando a dificuldades para dormir nos horários convencionais.</li>
-
-
+O Transtorno de Estresse Pós-Traumático (TEPT) é um diagnóstico psiquiátrico que se aplica a pessoas que experimentaram eventos traumáticos e começaram a sofrer de estresse intenso após o evento. Os sintomas do TEPT incluem flashbacks perturbadores.</li>
+              <p>É importante procurar ajuda profissional se você acredita que está sofrendo de estresse traumático ou TEPT, pois esses transtornos podem afetar significativamente a qualidade de vida e a necessidade de tratamento adequado. A terapia, como a terapia cognitivo-comportamental (TCC), e, em alguns casos, a medicação pode ser usada para ajudar as pessoas a lidar com os efeitos do estresse traumático.</p>
+              
             </ul>
           </div>
-          <Card2 titulo='Problemas de Sono' imagem={im33} />
+          <Card2 titulo='Estresse e Traumático' imagem={im42} />
         </div>
       </div>
+
+
+
       <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Problemas de Sono' imagem={im34} />
+          <Card2 titulo='Problemas de Relacionamento' imagem={im45} />
           <div className={style.texto}>
-            <h2>Dica Extra</h2>
-            <p>Se você está enfrentando problemas de sono persistentes, é recomendado procurar um médico ou especialista em sono. Um diagnóstico adequado pode ajudar a identificar a causa subjacente do seu problema de sono e permitir o desenvolvimento de um plano de tratamento adequado. Em muitos casos, pequenas mudanças nos hábitos de sono e no estilo de vida podem fazer uma grande diferença na qualidade do sono.</p>
+            <h2>Sintomas</h2>
+            <p>É normal enfrentar problemas de relacionamento em diversas áreas da vida, seja em relacionamentos amorosos, familiares, de amizade ou no ambiente de trabalho. Aqui estão alguns problemas comuns que as pessoas enfrentam em seus relacionamentos, juntamente com algumas orientações sobre como lidar com eles:</p>
             <ul>
+              <li> Falta de Comunicação: A comunicação deficiente é um dos principais problemas. Isso pode incluir não expressar sentimentos, não compartilhar informações importantes ou não ouvir atentamente o outro. Para lidar com isso, é fundamental praticar a escuta ativa, expressar suas próprias necessidades de maneira clara e estar aberto a ouvir o que o outro tem a dizer.</li>
+              <li> Desentendimentos e Conflitos: Os conflitos são naturais, mas quando não são resolvidos deliberadamente, podem causar problemas duradouros. Aprenda a abordar os conflitos de maneira construtiva, focando em soluções e compromissos, em vez de culpar ou acusar.</li>
 
-              <li> Narcolepsia: É um distúrbio do sono caracterizado por sonolência excessiva durante o dia, ataques de sono repentinos e perda de controle muscular (cataplexia) em resposta a emoções intensas. Pode interferir significativamente na vida diária e nas atividades normais.</li>
-              <li> Parassonias: São comportamentos anormais durante o sono, como sonambulismo, terrores noturnos, pesadelos frequentes e até mesmo comportamentos violentos durante o sono</li>
-              <li>  Distúrbios do sono relacionados ao trabalho por turnos: Pessoas que trabalham em turnos alternados, noturnos ou irregulares muitas vezes enfrentam problemas de sono devido às mudanças no ritmo circadiano.</li>
-              <li> Distúrbios do sono relacionados ao envelhecimento: À medida que envelhecemos, os padrões de sono podem mudar, com tendência a acordar mais cedo e ter dificuldade em adormecer</li>
+              <li> Falta de Confiança: A confiança é essencial em qualquer relacionamento. Se a confiança foi quebrada, é importante ter conversas honestas sobre o que aconteceu, demonstrar mudança de comportamento e dar ritmo para que a confiança seja reconstruída gradualmente.</li>
+              <li> Diferenças de Opinião e Valores: As pessoas têm opiniões e valores diferentes, o que pode levar a discordâncias. É importante aprender a respeitar as diferenças e encontrar maneiras de compromisso, quando possível, ou concordar em discordar sem dificuldades no relacionamento </li>
+              <li>  
+              Insegurança e Ciúmes: Sentimentos de insegurança e ciúmes podem surgir devido a questões internas ou externas ao relacionamento. Trabalhe na construção da autoestima e na comunicação aberta para abordar esses sentimentos de forma saudável.</li>
 
             </ul>
           </div>
         </div>
-      </div>
-      <div className={style.cards}>
+        </div>
+        <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>Problemas de postura, também conhecidos como alterações posturais, referem-se às posições inadequadas ou anormais nas quais uma pessoa mantém o seu corpo enquanto está sentada, em pé ou realizando várias atividades. Esses problemas podem ter várias causas, desde fatores genéticos e hábitos diários até condições médicas subjacentes. Alguns dos problemas de postura mais comuns incluem:</p>
+            <p>Os problemas de saúde mental em crianças e adolescentes têm recebido cada vez mais atenção nos últimos anos, à medida que se confirma a importância de identificar e tratar essas questões precocemente. Alguns dos problemas de saúde mental mais comuns em crianças e adolescentes incluem:</p>
             <ul>
-              <li>Lordose: Também chamada de curvatura lombar excessiva, a lordose envolve uma curvatura acentuada para dentro na região inferior das costas. Isso pode resultar em uma aparência de bumbum empinado e causar dor na região lombar.</li>
-              <li> Cifose: A cifose refere-se à curvatura exagerada para frente da parte superior das costas (região torácica), o que pode levar a uma postura encurvada ou corcunda. Isso muitas vezes está associado a má postura e pode causar desconforto ou dor.</li>
+              <li> Transtornos de Ansiedade: Isso inclui transtorno de ansiedade generalizada, fobias específicas, transtorno de pânico e transtorno de ansiedade social. Crianças e adolescentes podem apresentar preocupações excessivas, medos irracionais e sintomas físicos de ansiedade.</li>
+              <p>Transtorno do Déficit de Atenção e Hiperatividade (TDAH): Caracteriza-se por dificuldades em manter a atenção, hiperatividade e impulsividade. Isso pode impactar o desempenho escolar, a interação social e <br />
 
-              <li> Escoliose: A escoliose envolve uma curvatura lateral anormal da coluna vertebral. Pode ser leve ou grave e, em alguns casos, pode requerer tratamento médico, como o uso de coletes ou cirurgia.</li>
-              <li>  Ombros caídos: Essa postura ocorre quando os ombros estão em uma posição mais baixa do que o normal, o que pode dar uma aparência encurvada e tensa.</li>
-              <li>  Cabeça inclinada para a frente: Também conhecida como cabeça à frente, essa postura é caracterizada por projetar a cabeça para frente em relação aos ombros. Isso pode estar relacionado ao uso excessivo de dispositivos eletrônicos e à má ergonomia no local de trabalho.</li>
-              <li>  Pé chato: Um pé plano ou arco caído pode afetar o alinhamento de todo o corpo, desde os pés até a coluna vertebral.</li>
-              <li> Má postura ao sentar: Sentar-se de maneira incorreta, como se curvar ou não fornecer um bom suporte lombar, pode resultar em tensão e dor nas costas.</li>
+Depressão: Crianças e adolescentes também podem experimentar sintomas de depressão, incluindo tristeza persistente, perda de interesse pelas atividades, mudanças no sono e no apetite e sentimentos de desesperança.</p>
+              <li> Transtornos do Espectro Autista (TEA): Embora seja um transtorno de desenvolvimento mais amplo, muitas vezes está associado a desafios na comunicação, interação social e comportamentos repetitivos.</li>
+              <li> Automutilação e Suicídio: Infelizmente, muitos adolescentes enfrentam pensamentos suicidas e podem se envolver em automutilação como uma forma de lidar com suas emoções.</li>
+              <li> Transtornos de Conduta: Crianças e adolescentes com esses transtornos frequentemente exibem comportamentos desafiadores, agressivos e antissociais, como mentir, roubar, brigar e desrespeitar regras.</li>
+
 
             </ul>
           </div>
-          <Card2 titulo='Problemas de Postura' imagem={im35} />
+          <Card2 titulo='Problemas de Saúde Mental Infantil e Adolescente' imagem={im49} />
         </div>
       </div>
+
+
+
       <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Fibromialgia' imagem={im36} />
+          <Card2 titulo='Problemas de Saúde Mental no Idoso' imagem={im50} />
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>A fibromialgia é um distúrbio crônico caracterizado por dor musculoesquelética generalizada, fadiga, distúrbios do sono e pontos sensíveis. É considerada uma condição complexa que afeta a forma como o cérebro processa os sinais de dor. Embora a fibromialgia se manifeste principalmente como dor e desconforto nos músculos, ligamentos e tendões, ela também pode levar a uma variedade de outros sintomas e desafios.
-              Principais características da fibromialgia incluem:</p>
+            <p>Os problemas de saúde mental no idoso são uma preocupação significativa, uma vez que a população idosa está em constante crescimento em muitas partes do mundo. Várias questões podem contribuir para o surgimento e agravamento desses problemas, incluindo </p>
             <ul>
-              <li> O sintoma principal da fibromialgia é a dor generalizada que persiste por pelo menos três meses. A dor costuma ser descrita como uma sensação constante de dor leve e pode ser sentida em ambos os lados do corpo, acima e abaixo da cintura.</li>
-              <li> Pessoas com fibromialgia frequentemente experimentam pontos sensíveis, áreas específicas no corpo que são sensíveis ao toque. A pressão sobre esses pontos pode causar dor.</li>
+              <li> Depressão: A depressão é uma condição grave que pode afetar qualquer faixa etária, mas os idosos estão em risco particular devido a fatores como perda de entes queridos, isolamento social, problemas de saúde psicológicos e alterações hormonais. A depressão pode se manifestar de maneiras diferentes nos idosos, muitas vezes com queixas físicas em vez de sintomas emocionais.</li>
+              <li> Ansiedade: A ansiedade é outra condição comum em idosos. Preocupações com a saúde, solidão, finanças e outras questões podem contribuir para o desenvolvimento de transtornos de ansiedade. A ansiedade também pode ser resultado de condições médicas subjacentes.</li>
 
-              <li> A fadiga crônica é comum na fibromialgia. Apesar de dormir o suficiente, indivíduos com fibromialgia muitas vezes acordam se sentindo cansados e sem se sentirem revigorados.</li>
-              <li>  Problemas de sono são frequentes na fibromialgia. Isso pode incluir dificuldades para adormecer, permanecer dormindo e ter um sono restaurador.</li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
+              <li> Transtornos Cognitivos: Isso inclui condições como a demência e a doença de Alzheimer. Esses transtornos afetam a memória, o raciocínio e a capacidade de realizar atividades diárias. O envelhecimento natural também pode resultar em diminuição da cognição</li>
+              <li>Isolamento Social: Muitos idosos enfrentam isolamento social devido a fatores como perda de amigos e familiares, atraso e dificuldade de locomoção. O isolamento social pode levar à solidão, depressão e outros problemas de saúde mental. </li>
+              <li> Mudanças na Identidade e Autoestima: A transição para a aposentadoria e as mudanças no papel social podem afetar a identidade e a autoestima dos idosos, levando a problemas emocionais.</li>
 
             </ul>
           </div>
         </div>
-      </div>
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im37} />
         </div>
-      </div>
-
-
-
-      <div className={style.cards}>
+        <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im38} />
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
+            <p>O estresse no trabalho e o burnout são conceitos relacionados que se referem a problemas de saúde mental que podem ocorrer devido a condições desafiadoras no ambiente de trabalho. Embora compartilhem algumas semelhanças, eles têm características distintas.</p>
             <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
+              <li> Estresse no Trabalho: 
+O estresse no trabalho é uma resposta natural do corpo às demandas e pressões excessivas no ambiente profissional. Ele pode ser causado por uma variedade de fatores, como prazos apertados, carga de trabalho elevada, conflitos interpessoais, falta de controle sobre as tarefas, falta de apoio da equipe ou superiores, entre outros. Um nível moderado de estresse pode até ser benéfico, pois pode motivar as pessoas a se esforçarem e alcançarem metas. No entanto, quando o estresse se torna constante e opressivo, pode levar a problemas de saúde física e mental, afetando o bem-estar geral da pessoa.</li>
+              <p>Burnout: 
+O burnout é um estado de exaustão emocional, mental e física resultante de um estresse prolongado e não gerenciado no ambiente de trabalho. Foi inicialmente descrito no contexto profissional da área</p>
+              <li> Diferenças entre Estresse e Burnout: <br/>
 
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
+O estresse é uma consequência de pressão ou demandas, enquanto o burnout é um estado de exaustão resultante do estresse prolongado.
+O estresse é geralmente acompanhado por sentimentos de ansiedade e sobrecarga, enquanto o burnout envolve sentimentos de desesperança, apatia e desânimo.
+O estresse está mais relacionado a uma resposta aguda a situações desafiadoras, enquanto o burnout é um processo gradual que se desenvolve ao longo do tempo.
+O estresse pode diminuir quando as condições no ambiente de trabalho melhoram, enquanto o burnout muitas vezes requer intervenção mais intensiva para ser superado.</li>
 
 
             </ul>
           </div>
-          <Card2 titulo='Fibromialgia' imagem={im39} />
+          <Card2 titulo='Estresse no Trabalho e Burnout' imagem={im51} />
         </div>
       </div>
 
@@ -340,20 +424,69 @@ export default function pisicologia() {
 
       <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im40} />
+          <Card2 titulo='Luto e Perda' imagem={im53} />
           <div className={style.texto}>
             <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
+            <p>Luto é uma resposta emocional à perda de algo significativo, como a morte de um ente querido, o fim de um relacionamento, a perda de um emprego, uma mudança drástica na vida ou até mesmo a perda de um animal de estimação. É um processo complexo e pessoal que envolve uma ampla gama de emoções, pensamentos e reações físicas.</p>
             <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
+              <li> Negação : Uma pessoa pode ter dificuldade em aceitar a realidade da perda. Pode sentir-se entorpecido, como se aquilo não estivesse realmente acontecendo.</li>
+              <li> Raiva : Surge uma sensação de injustiça e frustração. Uma pessoa pode se sentir zangada consigo mesma, com uma pessoa falecida, com os outros ou até mesmo com o mundo em geral</li>
 
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
+              <li> Negociação : Nesta fase, uma pessoa pode tentar negociar ou fazer acordos para reverter a situação. Isso pode envolver pensamentos como se ao menos tivesse feito algo de forma diferente.</li>
+              <li> Depressão : Uma profunda tristeza e desânimo podem se instalar. Uma pessoa pode sentir-se cansada, solitária e sem esperança. É importante notar que isso não é necessariamente um transtorno de depressão clínica, mas uma parte normal do processo de luto. </li>
+              <li>  Aceitação : eventualmente, a pessoa começa a aceitar a realidade da perda. Isso não significa que a tristeza desapareça completamente, mas ela começa a encontrar uma maneira de lidar com a nova realidade.</li>
+
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div className={style.cards}>
+        <div className={style.organiza}>
+          <div className={style.texto}>
+            <h2>Sintomas</h2>
+            <p>Transtornos sexuais, também conhecidos como distúrbios sexuais ou disfunções sexuais, referem-se a uma ampla gama de dificuldades ou problemas persistentes que os indivíduos podem enfrentar relacionados à função sexual, desejo, excitação ou satisfação. Essas dificuldades podem causar sofrimento significativo e impactar negativamente a qualidade de vida e os relacionamentos de uma pessoa. É importante observar que enfrentar desafios sexuais ocasionais é comum e não necessariamente indicativo de um distúrbio. Contudo, quando essas dificuldades se tornam persistentes e angustiantes, podem ser classificadas como distúrbios sexuais.
+
+Aqui estão alguns exemplos de distúrbios sexuais comuns:</p>
+            <ul>
+              <li> Disfunção erétil (DE) : envolve dificuldade em alcançar ou manter uma ereção suficiente para a relação sexual. Pode ter causas físicas, psicológicas ou mistas.
+
+Ejaculação Precoce : Caracteriza-se por ejacular antes ou logo após a penetração, muitas vezes antes que a pessoa deseje. Isso pode levar à insatisfação de ambos os parceiros.
+
+Ejaculação retardada : Neste caso, a pessoa tem dificuldade em ejacular, mesmo com estimulação sexual suficiente. Isso pode tornar a atividade sexual difícil ou insatisfatória.</li>
+              <p>Transtorno de interesse/excitação sexual feminino : envolve falta de interesse ou excitação reduzida durante a atividade sexual em mulheres, levando ao sofrimento.
+
+Transtorno do Desejo Sexual Hipoativo Masculino : Caracteriza-se por um desejo sexual persistentemente baixo ou ausente nos homens, causando angústia ou dificuldades interpessoais.</p>
+              <li> Distúrbios orgásmicos : incluem condições em que um indivíduo tem dificuldade em atingir o orgasmo ou experimenta orgasmos significativamente retardados, causando sofrimento.
+
+Distúrbios da dor sexual : Condições como vaginismo (contração involuntária dos músculos vaginais) ou dispareunia (dor durante a relação sexual) se enquadram nesta categoria.
+
+Transtorno de Aversão Sexual : envolve extrema aversão e evitação de todo ou quase todo contato sexual genital com um parceiro sexual.</li>
+
+
+            </ul>
+          </div>
+          <Card2 titulo='' imagem={im54} />
+        </div>
+      </div>
+
+
+
+      <div className={style.cards}>
+        <div className={style.organiza}>
+          <Card2 titulo='Problemas de Autoestima' imagem={im46} />
+          <div className={style.texto}>
+            <h2>Sintomas</h2>
+            <p>Problemas de autoestima referem-se a sentimentos persistentes e negativos em relação a si mesmo, resultando em uma visão desvalorizada ou centrada em suas próprias habilidades, aparência, valor pessoal e potencial. A autoestima desempenha um papel crucial em nossa saúde mental e bem-estar emocional, pois afeta a forma como nos relacionamos com os outros, enfrentamos desafios e nos envolvemos com o mundo ao nosso redor.
+
+Abaixo estão algumas questões comuns relacionadas a problemas de autoestima</p>
+            <ul>
+              <li> Autocrítica excessiva: Pessoas com baixa autoestima tendem a se criticar severamente por seus erros ou falhas, muitas vezes superestimando esses aspectos negativos e subestimando suas realizações positivas.</li>
+              <li> Comparação constante: Comparar constantemente com os outros pode levar a sentimentos de inadequação, especialmente em uma era de redes sociais, onde as pessoas mostram frequentemente suas melhores conquistas e aparências.</li>
+
+              <li> Perfeccionismo: Buscar constantemente a perfeição pode levar a padrões inatingíveis, resultando em autoavaliação negativa quando esses padrões não forem atendidos.</li>
+              <li> Basear a autoestima exclusivamente nas opiniões e aprovação dos outros pode levar a um ciclo de busca constante por validação externa. </li>
+              <li> O medo do fracasso pode levar a evitar desafios e novas experiências, pois uma pessoa teme não ser capaz de lidar com eles, o que perpetua a crença de sua própria inadequação.</li>
+              <li> Pessoas com baixa autoestima muitas vezes têm dificuldade em acreditar ou aceitar elogios genuínos, descontando-os como falsos ou insignificantes.</li>
 
             </ul>
           </div>
@@ -363,325 +496,27 @@ export default function pisicologia() {
         <div className={style.organiza}>
           <div className={style.texto}>
             <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
+            <p>Desenvolvimento pessoal refere-se ao processo contínuo de autodescoberta, aprimoramento de habilidades, crescimento emocional e evolução pessoal que uma pessoa busca ao longo de sua vida. Envolver o investimento consciente e ativo no próprio crescimento, tanto em termos de habilidades práticas quanto de desenvolvimento emocional e mental.
+
+               Aqui estão alguns aspectos importantes do desenvolvimento pessoal:</p>
             <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
+              <li> Autoconhecimento: Compreender quem você é, quais são seus valores, interesses, pontos fortes e áreas de melhoria. Isso ajuda a tomar decisões alinhadas com suas metas pessoais.</li>
+              <p>Metas claras: Definir metas específicas e mensuráveis ​​para diferentes áreas da vida, como carreira, relacionamentos, saúde e desenvolvimento pessoal.</p>
+              <li> Aprendizado contínuo: Busque constantemente novos conhecimentos, adquira novas habilidades e se atualize em sua área de interesse.</li>
+              <p>Habilidades interpessoais: Desenvolver habilidades de comunicação eficaz, empatia, resolução de conflitos e construção de relacionamentos saudáveis.</p>
+              <li> Gestão do tempo: Aprenda a gerenciar seu tempo de forma eficaz para equilibrar as diversas demandas da vida, incluindo trabalho, lazer e autocuidado.</li>
+              <p>Autoconfiança: Trabalhar para construir uma autoimagem positiva e acreditar em suas capacidades para lidar com desafios e alcançar objetivos.</p>
+              <li> Resiliência: Desenvolver a capacidade de lidar com adversidades, superar obstáculos e recuperar-se de falhas.</li>
 
 
             </ul>
           </div>
-          <Card2 titulo='Fibromialgia' imagem={im41} />
+          <Card2 titulo='Desenvolvimento pessoal' imagem={im55} />
         </div>
       </div>
 
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im42} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
+            
         </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im43} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im44} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im45} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im46} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im47} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im48} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im49} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im50} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im51} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im52} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im53} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im54} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div className={style.cards}>
-        <div className={style.organiza}>
-          <div className={style.texto}>
-            <h2>Dicas Extras</h2>
-            <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
-            <ul>
-              <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
-              <p>Embora não haja cura para a fibromialgia, o tratamento visa gerenciar os sintomas e melhorar a qualidade de vida do paciente. Isso pode envolver uma combinação de medicamentos (como analgésicos, antidepressivos e auxílios para dormir), fisioterapia, exercícios, técnicas de gerenciamento de estresse e mudanças no estilo de vida. É importante que pessoas com fibromialgia trabalhem em conjunto com um profissional de saúde para desenvolver um plano de tratamento personalizado.</p>
-              <li> Se você suspeita que tem fibromialgia ou está experimentando sintomas semelhantes aos descritos acima, é recomendado consultar um profissional médico para uma avaliação adequada e orientação.</li>
-
-
-            </ul>
-          </div>
-          <Card2 titulo='Fibromialgia' imagem={im55} />
-        </div>
-      </div>
-
-
-
-      <div className={style.cards}>
-        <div className={style.organiza}>
-          <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im38} />
-          <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
-              Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
-            <ul>
-              <li> Sintomas físicos: Inchaço abdominal, Dor nos seios, Cólicas menstruais, Fadiga, Dores de cabeça,
-                Mudanças no apetite e desejos alimentares</li>
-              <li> Sintomas emocionais e psicológicos: Irritabilidade, Mudanças de humor, Ansiedade ,Depressão,Choro fácil, Dificuldade de concentração</li>
-
-              <li> Sintomas comportamentais: Distúrbios do sono, Redução da libido, Dificuldade de lidar com o estresse, Sensação de estar sobrecarregada</li>
-              <li> A gravidade e a combinação de sintomas variam de pessoa para pessoa. Algumas pessoas podem ter sintomas leves que não afetam muito sua qualidade de vida, enquanto outras podem experimentar sintomas mais intensos que interferem em suas atividades diárias.
-                O tratamento da TPM depende da gravidade dos sintomas e das necessidades individuais. </li>
-              <li>  Frequentemente chamado de névoa da fibro, problemas cognitivos como dificuldade de concentração, problemas de memória e processamento cognitivo mais lento podem ocorrer.o.</li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-
-    </div>
-    
-    
+       
   )
 }
