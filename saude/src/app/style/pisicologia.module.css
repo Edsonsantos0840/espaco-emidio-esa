@@ -1,17 +1,21 @@
 
 
 .hea{
+     z-index: 0;
+    position: relative;
+    background-position-y: 7rem;
+    padding-top: 7rem;
+   
     background-image: url('.././image/14.png');
-    background-size: cover;
-    width: 99.7%;
-    height: 500px;
+    background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
 } 
+
 .hea .ajusta{
     width: 100%;
     background-color: #1240225e;
-    min-height: 500px;
+    min-height: 518px;
     margin-right: 10px;
 }
 .hea h1{
@@ -97,14 +101,22 @@
     text-align: center;
 }
 .cards{
-    max-width: 98%;
-    margin:.5rem auto;
+    width: 97%;
+    margin: 2.5rem auto;
     display: flex;
     flex-direction: column;
-    border: 2px solid greenyellow;
     box-shadow: 2px 2px 4px #0000002b;
-    background-color: #acff2f22;
-    border-radius: 20px;
+    background-color: #acff2f40;
+    border-radius: 10px;
+}
+.cards:hover{
+    width: 98%;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 6px #00000045;
+    background-color: #acff2f82;
+    border-radius: 10px;
 }
 .cards .organiza{
     display: flex;
@@ -117,9 +129,7 @@
     text-align: center;
 }
 .cards  h4{
-    font-size: 2.3rem;
-    color: var(--terceira-cor);
-    text-align: center;
+    font-size: 0rem;
 }
 .cards .texto{
     width: 120%;
@@ -140,6 +150,31 @@
     font-family: auto;
     list-style-type: disclosure-closed;
     font-size: 1rem;
-    color: var(--letra1-cor);
+    color: var(--segunda-cor);
 }
+@media (min-width:200px){
 
+}
+@media (min-width:320px){
+   
+ 
+}
+@media (min-width:480px){
+ 
+}  
+@media (min-width:768px){
+ 
+}
+@media (max-height:450px) and (min-width:768px){
+
+}
+@media (min-width:900px){
+  
+
+}
+@media (min-width:1024px){
+
+}
+@media (min-width:1224px){
+   
+}

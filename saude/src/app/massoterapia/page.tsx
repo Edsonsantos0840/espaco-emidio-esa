@@ -1,6 +1,11 @@
+'use client'
 import style from '@/app/style/massoterapia.module.css'
 import Button from '../../../components/button'
+import Button2 from '../../../components/button2'
 import Card2 from '../../../components/card2'
+import Card from '../../../components/card'
+import {useState} from 'react'
+import { FaAngleDown, FaAngleUp} from "react-icons/fa";
 
 import im1 from '../image/Circulação Sanguínea.png'
 import im11 from '../image/Circulação Sanguínea2.png'
@@ -27,6 +32,10 @@ import im25 from '../image/tensão Pre-Menstrual .png'
 import im26 from '../image/tensão Pre-Menstrual2.png'
 
 export default function Massoterapia() {
+  const [mostra1 ,setMostra1]= useState(false)
+  const [mostra2 ,setMostra2]= useState(false)
+  const [mostra3 ,setMostra3]= useState(false)
+
   return (
     <div className={style.hea}>
       <div className={style.contain}>
@@ -37,15 +46,22 @@ export default function Massoterapia() {
             <h3>Determinação e satisfação em oferecer o melhor para nossos paciêntes</h3>
             <div className={style.but}>
               <Button texto={'Agende um Horário'} />
-              <Button texto={'Saiba Mais'} />
+              <Button2 texto={'Saiba Mais'} />
             </div>
           </div>
         </div>
       </div>
       <div className={style.apresentação} >
-        <h2>Afinal, o que é a Massoterapia?.</h2>
+      <div>
+      <h2>Afinal, o que é a Massoterapia?.</h2>
         <h4>A massoterapia é uma forma de terapia que envolve a aplicação de diferentes técnicas de massagem com o objetivo de promover o bem-estar físico e mental. <br /> Ela é utilizada para relaxamento, alívio de tensões musculares, redução do estresse, melhoria da circulação sanguínea e aumento da flexibilidade.</h4> <br />
-        <div className={style.informações}>
+      </div>
+      <div className={style.divide}>
+
+      <div className={style.informações} onMouseOver={()=> setMostra1(true ) } onMouseOut={()=> setMostra1(false )}>
+        <h2>Modalidades</h2>
+        {!mostra1 ? <h3><FaAngleDown/></h3> : ''}
+      <ul className={mostra1 ? style.exibe : style.esconde } >
           <h4> <strong>Existem diversas abordagens e técnicas dentro da massoterapia, cada uma com suas  características e objetivos específicos. Algumas das técnicas mais comuns incluem :</strong> </h4>
 
           <p><span>Massagem Clássica ou Sueca:</span> Uma das formas mais conhecidas de massoterapia, que utiliza movimentos como amassamento, deslizamento, fricção e percussão para relaxar os músculos e melhorar a circulação.
@@ -80,23 +96,33 @@ export default function Massoterapia() {
           <h4>
             É importante ressaltar que a massoterapia não é uma substituição para cuidados médicos. Se você tem condições médicas específicas ou está lidando com problemas de saúde, é sempre recomendado consultar um profissional de saúde antes de receber qualquer forma de massagem terapêutica. Além disso, ao escolher um massoterapeuta, certifique-se de que ele seja certificado e tenha treinamento adequado nas técnicas que utiliza.
           </h4>
+          </ul>
         </div>
+     
+      </div>
+        
+        
       </div>
       <div className={style.divisor}>
         <span>______________________________________________</span>
         <h2 >Tratamentos da Massoterapia</h2>
         <span>______________________________________________</span>
       </div>
-
+       
+      
 
       <div className={style.cards}>
         <div className={style.organiza}>
           <Card2 titulo='Circulação Sanguínea' imagem={im1} />
          
           <div className={style.texto}>
-            <h2>Sintomas</h2>
-            <p>Os problemas de circulação sanguínea podem ter uma variedade de sintomas, que variam de leves a graves.  Esses sintomas podem ser indicativos de condições médicas subjacentes que afetam a circulação. É importante ressaltar que qualquer pessoa que suspeite ter um problema de circulação deve procurar orientação médica para um diagnóstico adequado e tratamento. Alguns sintomas comuns de problemas de circulação sanguínea incluem:</p>
-            <ul>
+           
+            <h2>Circulação Sanguínea</h2>
+            <p>Os problemas de circulação sanguínea podem ter uma variedade de sintomas, que variam de leves a graves.  Esses sintomas podem ser indicativos de condições médicas subjacentes que afetam a circulação. É importante ressaltar que qualquer pessoa que suspeite ter um problema de circulação deve procurar orientação médica para um diagnóstico adequado e tratamento. Alguns sintomas comuns de problemas de circulação sanguínea incluem: </p>
+             
+              <ul  >
+                   
+
               <li>dor, sensação de queimação, cãibras ou dormência nas pernas, pés, braços ou mãos.</li>
               <li>A pele nas áreas afetadas pode ficar mais pálida ou até mesmo adquirir uma coloração azulada devido à diminuição do fluxo sanguíneo.</li>
               <li>Edema nas extremidades, especialmente nos tornozelos, pode ser um sinal de má circulação.</li>
@@ -107,7 +133,8 @@ export default function Massoterapia() {
               <li>  A redução da pulsação nas extremidades pode ser um sinal de fluxo sanguíneo comprometido.</li>
               
               <li>    Nos homens, a má circulação sanguínea pode afetar a função erétil.</li>
-            </ul>
+              </ul>
+        
           </div>
         </div>
        
@@ -115,7 +142,7 @@ export default function Massoterapia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Recuperação de Lesões</h2>
             <p>A massoterapia, também conhecida como massagem terapêutica, é uma técnica que envolve a manipulação dos tecidos moles do corpo, como músculos, tendões, ligamentos e tecido conjuntivo, com o objetivo de promover o relaxamento, aliviar a dor, melhorar a circulação sanguínea e linfática, e proporcionar uma sensação geral de bem-estar. Ela pode desempenhar um papel importante no tratamento de lesões, mas é importante entender seus benefícios e limitações
               A massoterapia pode ser benéfica no tratamento de lesões de várias maneiras:</p>
             <ul>
@@ -133,7 +160,7 @@ export default function Massoterapia() {
         <div className={style.organiza}>
           <Card2 titulo='Recuperação de Lesões ' imagem={im22} />
           <div className={style.texto}>
-            <h2>Dica extra.</h2>
+            <h2>Recuperação de Lesões.</h2>
             <p>A recuperação de lesões é um processo que envolve a restauração dos tecidos afetados, a redução da dor, a restauração da função normal e a prevenção de complicações futuras. O tempo e os métodos de recuperação podem variar dependendo do tipo e gravidade da lesão. Aqui estão algumas diretrizes gerais para ajudar na recuperação de lesões:</p>
             <ul>
               <li>Em muitos casos, um período de descanso é necessário para permitir que o corpo se recupere. Isso pode envolver evitar atividades que agravem a lesão e permitir que os tecidos lesionados se curem.</li>
@@ -148,7 +175,7 @@ export default function Massoterapia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Flexibilidade e Amplitude de Movimento</h2>
             <p>A massoterapia pode desempenhar um papel importante na recuperação dos movimentos, especialmente após lesões, cirurgias ou condições médicas que afetam a mobilidade e a funcionalidade do corpo. A massoterapia, também conhecida como terapia de massagem, envolve a manipulação dos tecidos moles do corpo, como músculos, tendões e ligamentos, com o objetivo de melhorar a circulação sanguínea, relaxar a musculatura, reduzir a dor e promover a recuperação.
               Aqui estão algumas maneiras pelas quais a massoterapia pode ajudar na recuperação dos movimentos.</p>
             <ul>
@@ -170,7 +197,7 @@ export default function Massoterapia() {
         <div className={style.organiza}>
           <Card2 titulo='Síndrome do Túnel do Carpo ' imagem={im4} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Síndrome do Túnel do Carpo</h2>
             <p>A Síndrome do Túnel do Carpo (STC) é uma condição médica que afeta o punho e a mão, causada pela compressão do nervo mediano à medida que ele passa através do túnel do carpo, uma estrutura estreita no pulso. O nervo mediano é responsável por transmitir sinais sensoriais e motores para a maioria dos dedos da mão, exceto o dedo mínimo.
               A compressão do nervo mediano pode ser causada por uma variedade de fatores, incluindo:</p>
             <ul>
@@ -190,7 +217,7 @@ export default function Massoterapia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Dor Muscular e Tensão</h2>
             <p>Dor muscular e tensão são duas condições frequentemente relacionadas ao sistema musculoesquelético. Vou explicar cada uma delas:</p>
             <ul>
               <li> Dor Muscular:
@@ -212,7 +239,7 @@ export default function Massoterapia() {
         <div className={style.organiza}>
           <Card2 titulo='Dor Crônica' imagem={im7} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Dor Crônica</h2>
             <p>Dor crônica é um tipo de dor que persiste por um período prolongado, geralmente por mais de três meses, ou mesmo além do tempo de cicatrização esperado para uma lesão ou condição. Ela pode afetar várias áreas do corpo e pode ser causada por uma variedade de fatores. A dor crônica é mais do que apenas uma resposta ao dano físico; muitas vezes, está relacionada a alterações complexas nos sistemas nervoso e musculoesquelético.Alguns exemplos de condições que podem resultar em dor crônica incluem:</p>
             <ul>
               <li>Dor nas Costas Crônica: Pode ser causada por problemas como hérnia de disco, osteoartrite, espondilite anquilosante ou lesões antigas.</li>
@@ -232,7 +259,7 @@ export default function Massoterapia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas de Sono</h2>
             <p>Os problemas de sono, também conhecidos como distúrbios do sono, são condições que afetam a qualidade e/ou quantidade do sono de uma pessoa. Existem vários tipos de distúrbios do sono que podem afetar diferentes aspectos do sono, resultando em dificuldades para adormecer, permanecer dormindo ou obter um sono reparador. Alguns dos problemas de sono mais comuns incluem:</p>
             <ul>
               <li>Insônia: É caracterizada pela dificuldade em adormecer ou permanecer dormindo, levando a um sono inadequado e não reparador. Pode ser causada por fatores como estresse, ansiedade, depressão, uso excessivo de dispositivos eletrônicos antes de dormir ou má higiene do sono.</li>
@@ -251,7 +278,7 @@ export default function Massoterapia() {
         <div className={style.organiza}>
           <Card2 titulo='Problemas de Sono' imagem={im18} />
           <div className={style.texto}>
-            <h2>Dica Extra</h2>
+            <h2>Problemas de Sono</h2>
             <p>Se você está enfrentando problemas de sono persistentes, é recomendado procurar um médico ou especialista em sono. Um diagnóstico adequado pode ajudar a identificar a causa subjacente do seu problema de sono e permitir o desenvolvimento de um plano de tratamento adequado. Em muitos casos, pequenas mudanças nos hábitos de sono e no estilo de vida podem fazer uma grande diferença na qualidade do sono.</p>
             <ul>
 
@@ -267,7 +294,7 @@ export default function Massoterapia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas de Postura</h2>
             <p>Problemas de postura, também conhecidos como alterações posturais, referem-se às posições inadequadas ou anormais nas quais uma pessoa mantém o seu corpo enquanto está sentada, em pé ou realizando várias atividades. Esses problemas podem ter várias causas, desde fatores genéticos e hábitos diários até condições médicas subjacentes. Alguns dos problemas de postura mais comuns incluem:</p>
             <ul>
               <li>Lordose: Também chamada de curvatura lombar excessiva, a lordose envolve uma curvatura acentuada para dentro na região inferior das costas. Isso pode resultar em uma aparência de bumbum empinado e causar dor na região lombar.</li>
@@ -288,7 +315,7 @@ export default function Massoterapia() {
         <div className={style.organiza}>
           <Card2 titulo='Fibromialgia' imagem={im10} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Fibromialgia</h2>
             <p>A fibromialgia é um distúrbio crônico caracterizado por dor musculoesquelética generalizada, fadiga, distúrbios do sono e pontos sensíveis. É considerada uma condição complexa que afeta a forma como o cérebro processa os sinais de dor. Embora a fibromialgia se manifeste principalmente como dor e desconforto nos músculos, ligamentos e tendões, ela também pode levar a uma variedade de outros sintomas e desafios.
               Principais características da fibromialgia incluem:</p>
             <ul>
@@ -306,7 +333,7 @@ export default function Massoterapia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas Extras</h2>
+            <h2>Fibromialgia</h2>
             <p>A causa exata da fibromialgia não é bem compreendida. Acredita-se que envolva uma combinação de fatores genéticos, ambientais e psicológicos. Fatores de risco para o desenvolvimento da fibromialgia incluem histórico familiar da condição, trauma físico ou emocional, infecções e certas doenças autoimunes.</p>
             <ul>
               <li> O diagnóstico da fibromialgia pode ser desafiador, uma vez que não existem testes laboratoriais específicos ou exames de imagem que possam confirmá-la. O diagnóstico geralmente é baseado nos sintomas relatados pelo paciente e em um exame físico. Médicos frequentemente utilizam critérios estabelecidos por organizações como o Colégio Americano de Reumatologia para diagnosticar a fibromialgia.</li>
@@ -326,7 +353,7 @@ export default function Massoterapia() {
         <div className={style.organiza}>
           <Card2 titulo='Tensão Pré-Menstrual (TPM)' imagem={im26} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Tensão Pré-Menstrual (TPM)</h2>
             <p>A tensão pré-menstrual (TPM) é um conjunto de sintomas físicos, emocionais e comportamentais que ocorrem em muitas pessoas menstruantes nos dias que antecedem a menstruação. Ela é causada pelas flutuações hormonais que ocorrem durante o ciclo menstrual.
               Os sintomas da TPM podem variar de leves a graves e podem incluir:</p>
             <ul>

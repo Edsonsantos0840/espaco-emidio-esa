@@ -1,0 +1,81 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 35, 0);
+    padding: 10px;
+}
+.container h1{
+    margin-left: 1rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: var(--letra2-cor);
+}
+.container h1 span{
+    color: yellowgreen;
+}
+.container p{
+    font-size: .7rem;
+    color: yellowgreen;
+    margin-left: 1rem;
+}
+.container .icone {
+    display: flex;
+    justify-content: center;
+    gap: 4%;  
+    cursor: pointer;
+    font-size: 2rem;
+    color: #cbffdd;
+   
+}
+.container .icone a:hover{
+    transform: scale(1.5);
+}
+.icone p{
+    width: 400px;
+    font-size: 1.3rem;
+    margin-left: 0rem;
+}
+.container nav{
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+}
+.container nav a{  
+    padding: 5px 12px;
+   color: var(--letra2-cor) ;
+   border-radius: 5px;
+}
+.container nav a:hover{  
+   background-color: var(--letra2-cor) ;
+   color:  var(--segunda-cor);
+}
+@media (min-width:200px){
+
+}
+@media (min-width:320px){
+   
+ 
+}
+@media (min-width:480px){
+ 
+}  
+@media (min-width:768px){
+ 
+}
+@media (max-height:450px) and (min-width:768px){
+
+}
+@media (min-width:900px){
+  
+
+}
+@media (min-width:1024px){
+
+}
+@media (min-width:1224px){
+   
+}

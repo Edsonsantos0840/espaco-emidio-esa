@@ -8,7 +8,8 @@ export default function Header() {
   return (
     <div className={style.container}>
        <div className={style.logo} >
-       <Image src={logo} alt='logo' width={150} height={120}/>
+       <Link id='logo' href={'/'}><Image src={logo} alt='logo' width={150} height={120}/></Link>
+       
        <div className={style.marca}>
         <h1>Espaço <span>Emídio & Sá</span></h1>
        <p>CUIDANDO DE SUA SAÚDE</p>
@@ -20,7 +21,6 @@ export default function Header() {
         <Link href={'/'}>Início</Link>
         <Link href={'/massoterapia'}>Massoterapia</Link>
         <Link href={'/pisicologia'}>Pisicologia</Link>
-        <Link href={'/trabalho'}>Nosso Trabalho</Link>
         <Link href={'/sobre'}>Sobre Nós</Link>
         <Link href={'/contato'}>Contato</Link>
        </nav>

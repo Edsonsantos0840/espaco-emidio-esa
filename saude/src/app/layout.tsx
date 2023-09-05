@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Caveat } from 'next/font/google'
 import Header from '../../components/header'
+import Footer from '../../components/footer'
 
 const caveat =Caveat({ subsets: ['latin'] })
 
@@ -19,7 +20,9 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={caveat.className}>
         <Header/>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
     </html>
   )
 }

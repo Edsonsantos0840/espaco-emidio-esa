@@ -1,9 +1,12 @@
 
 .hea{
-    background-image: url('.././image/4.png');
-    background-size: cover;
-    width: 99.7vw;
-    height: 500px;
+    z-index: 0;
+    position: relative;
+    background-position-y: 7rem;
+    padding-top: 7rem;
+    background-image: url('../image/4.png');
+    background-size: 99.7%;
+    
     background-repeat: no-repeat;
 }
 .divisor{
@@ -17,7 +20,7 @@
 .hea .textHea{
     width: 99.7vw;
     background-color: #1240225e;
-    min-height: 500px;
+    min-height: 518px;
 }
 .hea h1{
     color: yellowgreen;
@@ -71,10 +74,15 @@
 }
 .colunas .dTela{
     display: flex;
+    flex-direction: column;
+}
+.colunas .dTela .organizando{
+    display: flex;
+    padding: 1rem;
 }
 .organiza{
     display: flex;
-    gap: 1%;
+    align-items: center
 }
 .colunas h2{
     font-size: 2.3rem;
@@ -82,22 +90,23 @@
     text-align: center;
 }
 .colunas .organiza ul{
-   
-    width: 110%;
+    margin: 0px .5rem;
+    display: none;
 }
 .colunas .organiza ul li{
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: disclosure-closed;
     font-size: .9rem;
+    
 }
  .colunas button {
     background-color: yellowgreen;
     color:  rgb(255, 255, 255);
     font-size: 1.5rem;
-    width: 475px;
+    width: 68%;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
-    margin: .6rem auto;
+    margin: 1rem;
     }
     .colunas  button:hover{
     background-color: rgb(219, 239, 200);
@@ -113,8 +122,8 @@
 }
 .apresentação{
     margin: 1rem;
-    width: 80%;
-    background-color: rgba(0, 0, 0, 0.064);
+    width: 50%;
+    background-color:rgba(167, 234, 35, 0.412);
     padding: 1.5rem;
     border-radius: 10px;
 }
@@ -122,8 +131,93 @@
     color: yellowgreen;
     text-align: center;
     font-size: 2.5rem;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
 }
 .apresentação h4{
    font-family: Arial, Helvetica, sans-serif;
+}
+.divide{
+    display: flex;
+}
+.contem{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.4s;
+}
+.contem:hover{
+    width: 100%;
+    justify-content: flex-start;
+    border: 2px solid var(--terceira-cor);
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    padding: 10px;
+    background-color: rgba(172, 255, 47, 0.151);
+    
+}
+.contem:hover h4{
+  font-size: 0rem;
+}
+.contem h2{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contem ul{
+   display: none;
+   transition: 2s;
+}
+.contem ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type:circle;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+.contem button {
+    background-color: yellowgreen;
+    color:  rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
+    margin: .5rem;
+    }
+    .contem  button:hover{
+    background-color: rgb(219, 239, 200);
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+.contem .exibe{
+    display: block;
+    font-size: 1.3rem;
+}
+.contem.esconde{
+    display: none;
+}
+@media (min-width:200px){
+
+}
+@media (min-width:320px){
+   
+ 
+}
+@media (min-width:480px){
+ 
+}  
+@media (min-width:768px){
+ 
+}
+@media (max-height:450px) and (min-width:768px){
+
+}
+@media (min-width:900px){
+  
+
+}
+@media (min-width:1024px){
+
+}
+@media (min-width:1224px){
+   
 }

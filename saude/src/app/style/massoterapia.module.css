@@ -1,10 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@300;400;500;600;700;900 & display=swap'); */
 
 .hea{
+    z-index: 0;
+    position: relative;
+    background-position-y: 7rem;
+    padding-top: 8.3rem;
+   
     background-image: url('.././image/3.png');
-    background-size: cover;
-    width: 99.7%;
-    height: 500px;
+    background-size: 99.7%;
     background-repeat: no-repeat;
     margin: auto;
 }
@@ -16,6 +19,7 @@
     padding: 5px;
 }
 .hea .contain{
+    margin-top: -1.5rem;
     width: 99.7vw;
     background-color: #1240225e;
     min-height: 500px;
@@ -25,7 +29,7 @@
 }
 .posi{
     width: 55%;
-    height: 500px;
+    height: 520px;
 }
 .hea .ajusta{
     width: 45%;
@@ -75,6 +79,7 @@
     border-radius: 10px;
     text-align: center;
 }
+
 .apresentação h2{
     color: yellowgreen;
     text-align: center;
@@ -99,12 +104,28 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 .apresentação .informações{
-    width: 90%;
-    padding: 2rem;
+    position: relative;
+    width: 80%;
+    height: 60px;
+    padding: 0rem 5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #0000002b;
+    background-color: #acff2f4a;
+    margin: auto;
+    transition: 1.5s;
+}
+.apresentação .informações:hover{
+    height: auto;
+    padding: 0px 2rem;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #0000002b;
     background-color: #acff2f93;
     margin: auto;
+}
+.apresentação .informações h3{
+    font-size: 3.5rem;
+    margin-top: -5.5%;
+    color: rgba(0, 0, 0, 0.281);
 }
 .divisor  h2{
     font-size: 2.3rem;
@@ -112,13 +133,27 @@
     text-align: center;
 }
 .cards{
+    width: 97%;
+    margin: 2.5rem auto;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 2px 4px #0000002b;
+    background-color: #acff2f40;
+    border-radius: 10px;
 }
+.cards:hover{
+    width: 98%;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 6px #00000045;
+    background-color: #acff2f82;
+    border-radius: 10px;
+}
+
 .cards .organiza{
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
 }
 .cards div h2{
     font-family: cursive;
@@ -127,21 +162,17 @@
     text-align: center;
 }
 .cards  h4{
-    font-size: 2.3rem;
-    color: var(--terceira-cor);
-    text-align: center;
+    font-size: 0rem;
 }
 .cards .texto{
+    width: 100%;
     width: fit-content;
     padding: .1rem 1rem;
-    border-radius: 10px;
-    border: 2px solid greenyellow;
-    box-shadow: 2px 2px 4px #0000002b;
-    background-color: #acff2f3d;
+   
 }
 .cards p{
     font-family: cursive;
-    font-size: .9rem;
+    font-size: 1rem;
     color: var(--primeira-cor);
     text-align: center;
 }
@@ -150,8 +181,95 @@
 }
 .cards .organiza ul li{
     font-family: auto;
-    list-style-type: disclosure-closed;
+    list-style-type:disc;
     font-size: 1rem;
-    color: var(--letra1-cor);
+    color: var(--segunda-cor);
 }
+.divide{
+    
+   
+}
+.contem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.4s;
+}
+.contem:hover{
+    width: 100%;
+    justify-content: flex-start;
+    border: 2px solid var(--terceira-cor);
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    padding: 10px;
+    background-color: rgba(172, 255, 47, 0.151); 
+}
+.contem:hover h4{
+  font-size: 0rem;
+}
+.contem h2{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.divide .ínformações ul{
+   display: none;
+   transition: 2s;
+}
+.divide .ínformações ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    list-style-type: circle;
+}
+.contem button {
+    background-color: yellowgreen;
+    color:  rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
+    margin: 0.3rem 8rem;
+    }
+    .contem  button:hover{
+    background-color: rgb(219, 239, 200);
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+.informações .exibe{
+    display: block;
+    font-family: cursive;
+}
+.informações .esconde{
+    display: none;
+}
+.informações span svg{
+    font-size: 3rem;
+}
+@media (min-width:200px){
 
+}
+@media (min-width:320px){
+   
+ 
+}
+@media (min-width:480px){
+ 
+}  
+@media (min-width:768px){
+ 
+}
+@media (max-height:450px) and (min-width:768px){
+
+}
+@media (min-width:900px){
+  
+
+}
+@media (min-width:1024px){
+
+}
+@media (min-width:1224px){
+   
+}

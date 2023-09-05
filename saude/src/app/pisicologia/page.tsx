@@ -1,5 +1,6 @@
 import style from '@/app/style/pisicologia.module.css'
 import Button from '../../../components/button'
+import Button2 from '../../../components/button2'
 import Card2 from '../../../components/card2'
 
 
@@ -8,8 +9,8 @@ import im18 from '../image/prblemas de sono2.png'
 import im27 from '../image/Transtornos de Ansiedade.png'
 import im28 from '../image/Transtornos de Ansiedade2.png'
 import im29 from '../image/Transtornos do Humor.png'
-import im30 from '../image/Transtornos do Humor2.png'
-import im31 from '../image/Transtornos do Humor3.png'
+import im31 from '../image/Transtornos do Humor2.png'
+import im30 from '../image/Transtornos do Humor3.png'
 import im33 from '../image/ranstornos do Comportamento Alimentar.png'
 import im34 from '../image/ranstornos do Comportamento Alimentar2.png'
 import im35 from '../image/Transtornos do Controle dos Impulsos.png'
@@ -42,7 +43,7 @@ export default function pisicologia() {
       <h3>Determinação e satisfação em oferecer <br /> o melhor para nossos paciêntes</h3>
       <div className={style.but}>
       <Button texto={'Agende um Horário'}/>
-        <Button texto={'Saiba Mais'}/>
+        <Button2 texto={'Saiba Mais'}/>
       </div>
       
       </div>
@@ -57,9 +58,9 @@ export default function pisicologia() {
         </div>
       </div>
       <div className={style.divisor}>
-        <span>______________________________________________</span>
-        <h2 >Tratamentos da Massoterapia</h2>
-        <span>______________________________________________</span>
+       
+        <h2 >____________Tratamentos da Psicologia____________</h2>
+        
       </div>
 
 
@@ -68,7 +69,7 @@ export default function pisicologia() {
           <Card2 titulo='Problemas relacionados a Sono' imagem={im8} />
          
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas relacionados a Sono</h2>
             <p>Os problemas de sono são bastante comuns e podem ter várias causas, muitas das quais estão relacionadas à psicologia. Aqui estão alguns problemas de sono comuns que têm uma base psicológica:</p>
             <ul>
               <li>Insônia: A insônia é caracterizada pela dificuldade em iniciar ou manter o sono, resultando em sono de má qualidade. Fatores psicológicos, como estresse, ansiedade, depressão e preocupações excessivas, podem desempenhar um papel significativo na insônia..</li>
@@ -86,7 +87,7 @@ export default function pisicologia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas Extras</h2>
+            <h2>Problemas com o sono</h2>
             <p>É importante abordar os problemas de sono com uma abordagem holística, considerando tanto os fatores físicos quanto os psicológicos. Se você tiver problemas de sono, é aconselhável nos procurar, para avaliar suas preocupações e desenvolver um plano de tratamento adequado.</p>
             <ul>
               <li>Mudanças de horário e Jet Lag: A adaptação a novos fusos horários pode ser difícil devido a desregulações no ritmo circadiano. Fatores psicológicos, como a adaptação emocional a um novo ambiente, também podem afetar o sono durante as mudanças de horário.
@@ -122,7 +123,7 @@ export default function pisicologia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas extras.</h2>
+            <h2>Transtornos de Ansiedade</h2>
             <p>O tratamento para transtornos de ansiedade pode envolver uma combinação de terapia . Nós podemos te ajudar em cada uma dessas situações.</p>
             <ul>
                <li>Transtorno do Pânico**: Envolve ataques de pânico inesperados e recorrentes, acompanhados de sintomas físicos e emocionais, como batimentos cardíacos acelerados, sudorese, tremores e uma sensação iminente de perigo. </li>
@@ -144,7 +145,7 @@ export default function pisicologia() {
         <div className={style.organiza}>
           <Card2 titulo='Transtornos do Humor' imagem={im29} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Transtornos do Humor</h2>
             <p>Os transtornos do humor, também conhecidos como transtornos afetivos, são condições psiquiátricas que afetam a maneira como uma pessoa sente emoções e lida com elas. Eles podem influenciar a forma como alguém experimenta o humor, a energia, os pensamentos e o comportamento. Dois dos transtornos de humor mais conhecidos são a depressão e o transtorno bipolar. Vou explicar um pouco sobre cada um deles:</p>
             <ul>
               <li> Transtorno Depressivo Maior (Depressão) : A depressão é caracterizada por sentimentos persistentes de tristeza, perda de interesse ou prazer em atividades que costumavam ser planejadas, alterações no apetite e no sono, fadiga, dificuldade de concentração, sentimentos de culpa ou inutilidade e, em casos mais graves, pensamentos de morte ou suicídio. A depressão pode ser desencadeada por fatores genéticos, químicos e ambientais.</li>
@@ -160,7 +161,7 @@ export default function pisicologia() {
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas Extras.</h2>
+            <h2>Transtornos do Humor</h2>
             <p>É importante lembrar que esses transtornos podem ser tratados com sucesso com terapia, medicação ou uma combinação de ambos. Se você ou alguém que você conhece está apresentando sintomas consistentes com um transtorno de humor, é aconselhável nos procurar  para avaliação e tratamento adequado.</p>
             <ul>
               <li> Transtorno Desafiador Opositivo (TDO) : Embora não seja um transtorno de humor, o TDO é um transtorno comportamental que pode estar associado a alterações de humor. Envolver um padrão persistente de comportamento, hostil e desobediente em crianças e adolescentes. Pode incluir irritabilidade intensa e explosões de raiva desproporcionais.</li>
@@ -177,7 +178,7 @@ export default function pisicologia() {
         <div className={style.organiza}>
           <Card2 titulo='Transtorno Alimentar.' imagem={im33} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Transtorno Alimentar</h2>
             <p>Os Transtornos do Comportamento Alimentar (TCA) são condições psicológicas que envolvem padrões anormais de alimentação e pensamentos perturbados em relação à alimentação, peso, corpo e imagem corporal. Esses transtornos podem ter sérias implicações para a saúde física e mental das pessoas afetadas. Alguns dos transtornos
              Aqui estão algumas informações sobre esses transtornos:</p>
             <ul>
@@ -199,7 +200,7 @@ Se você ou alguém que você conhece está lutando com um Transtorno do Comport
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas Extras.</h2>
+            <h2>Transtornos do Comportamento Alimentar.</h2>
             <p>É importante destacar que, embora possa haver sobreposições e nuances entre esses transtornos, cada um tem suas próprias características específicas e critérios diagnósticos. O diagnóstico e tratamento adequados devem ser feitos por profissionais de saúde mental e médicos especializados.</p>
             <ul>
               <li>Transtorno de Evitação/Restrição da Ingestão de Alimentos: Este é um transtorno menos conhecido, no qual uma pessoa evita certos alimentos ou grupos de alimentos devido a sensações alimentares percebidas, aversões sensoriais ou preocupações com consequências negativas na saúde ou no peso.</li>
@@ -218,7 +219,7 @@ Se você ou alguém que você conhece está lutando com um Transtorno do Comport
         <div className={style.organiza}>
           <Card2 titulo='Transtornos do Controle dos Impulsos' imagem={im37} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Transtornos do Controle dos Impulsos</h2>
             <p>Os Transtornos do Controle dos Impulsos são um grupo de condições psiquiátricas descritas pela dificuldade em resistir a impulsos ou desejos irresistíveis, levando a comportamentos repetitivos e muitas vezes agressivos. Esse                       
 Aqui estão alguns exemplos de Transtornos do Controle dos Impulsos:</p>
             <ul>
@@ -236,7 +237,7 @@ Aqui estão alguns exemplos de Transtornos do Controle dos Impulsos:</p>
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas extras.</h2>
+            <h2>Transtornos do Controle dos Impulsos</h2>
             <p>É importante observar que o diagnóstico de Transtornos do Controle dos Impulsos é realizado por profissionais de saúde mental com base em critérios específicos em diagnósticos manuais, como o DSM-5 (Manual Diagnóstico e Estatístico de Transt
 
 O tratamento desses transtornos pode variar de pessoa para pessoa, dependendo da gravidade e da necessidade</p>
@@ -256,7 +257,7 @@ O tratamento desses transtornos pode variar de pessoa para pessoa, dependendo da
         <div className={style.organiza}>
           <Card2 titulo='Relacionados ao Uso de Substâncias' imagem={im38} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Relacionados ao Uso de Substâncias</h2>
             <p>Os Transtornos Relacionados ao Uso de Substâncias (TRUS), também conhecidos como Transtornos Relacionados ao Uso de Drogas, são um grupo de condições de saúde mental que envolve o uso prejudicial ou problemático de substâncias psicoativas, como álcool, tabaco, cannabis, cocaína, opioides</p>
             <ul>
               <li> Transtorno pelo Uso de Álcool: Envolve o consumo excessivo e problemático de álcool, causando dificuldades sociais, profissionais, de saúde e legais.</li>
@@ -274,7 +275,7 @@ O tratamento desses transtornos pode variar de pessoa para pessoa, dependendo da
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Transtorno de personalidade</h2>
             <p>
 Os transtornos de personalidade são padrões persistentes e inflexíveis de pensamento, comportamento e emoções que alteram significativamente as expectativas culturais e interferem no funcionamento social, ocupacional ou pessoal de um indivíduo. Esses padrões geralmente começam a se manifestar na adolescência ou no início da idade adulta e tendem a ser resultantes ao longo do tempo.</p>
             <ul>
@@ -301,9 +302,9 @@ Transtorno de Personalidade Narcisista: Caracterizado por um senso inflado de im
 
       <div className={style.cards}>
         <div className={style.organiza}>
-          <Card2 titulo='Transtorno de Personalidade)' imagem={im41} />
+          <Card2 titulo='Transtorno de Personalidade' imagem={im41} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Transtorno de Personalidade</h2>
             <p>Vale ressaltar que o diagnóstico de transtornos de personalidade deve ser feito por profissionais de saúde mental específicos, após uma avaliação cuidadosa do histórico do indivíduo e de seus sintomas. O tratamento pode envolver terapia individual, terapia de grupo e, em alguns casos, medicamentos para tratar sintomas específicos, como depressão ou ansiedade associada a transtornos de personalidade.</p>
             <ul>
             <li>Cluster C - Transtornos ansiosos ou temerosos:
@@ -320,7 +321,7 @@ Transtorno de Personalidade Obsessivo-Compulsiva: Pessoas com esse transtorno s�
       <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Estresse  Traumático</h2>
             <p>O estresse é uma resposta do organismo a qualquer demanda ou pressão que exija ajustes. Pode ser causado por eventos positivos ou negativos e é uma parte natural da vida. No entanto, quando o estresse se torna excessivo ou persistente, pode levar a problemas de saúde física e mental.</p>
             <ul>
               <li> O estresse traumático, por sua vez, refere-se a uma forma mais intensa e de tensão de estresse, geralmente causada por eventos traumáticos. Um evento traumático é algo que ameaça a integridade física ou psicológica de uma pessoa, causando reações emocionais e psicológicas intensas. Alguns exemplos de eventos traumáticos incluem acidentes graves, abuso físico ou sexual, desastres naturais, violência, guerra e outros eventos extremamente perturbadores.
@@ -330,7 +331,7 @@ O Transtorno de Estresse Pós-Traumático (TEPT) é um diagnóstico psiquiátric
               
             </ul>
           </div>
-          <Card2 titulo='Estresse e Traumático' imagem={im42} />
+          <Card2 titulo='Estresse  Traumático' imagem={im42} />
         </div>
       </div>
 
@@ -340,7 +341,7 @@ O Transtorno de Estresse Pós-Traumático (TEPT) é um diagnóstico psiquiátric
         <div className={style.organiza}>
           <Card2 titulo='Problemas de Relacionamento' imagem={im45} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas de Relacionamento</h2>
             <p>É normal enfrentar problemas de relacionamento em diversas áreas da vida, seja em relacionamentos amorosos, familiares, de amizade ou no ambiente de trabalho. Aqui estão alguns problemas comuns que as pessoas enfrentam em seus relacionamentos, juntamente com algumas orientações sobre como lidar com eles:</p>
             <ul>
               <li> Falta de Comunicação: A comunicação deficiente é um dos principais problemas. Isso pode incluir não expressar sentimentos, não compartilhar informações importantes ou não ouvir atentamente o outro. Para lidar com isso, é fundamental praticar a escuta ativa, expressar suas próprias necessidades de maneira clara e estar aberto a ouvir o que o outro tem a dizer.</li>
@@ -358,7 +359,7 @@ O Transtorno de Estresse Pós-Traumático (TEPT) é um diagnóstico psiquiátric
         <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas de Saúde Mental Infantil e Adolescente</h2>
             <p>Os problemas de saúde mental em crianças e adolescentes têm recebido cada vez mais atenção nos últimos anos, à medida que se confirma a importância de identificar e tratar essas questões precocemente. Alguns dos problemas de saúde mental mais comuns em crianças e adolescentes incluem:</p>
             <ul>
               <li> Transtornos de Ansiedade: Isso inclui transtorno de ansiedade generalizada, fobias específicas, transtorno de pânico e transtorno de ansiedade social. Crianças e adolescentes podem apresentar preocupações excessivas, medos irracionais e sintomas físicos de ansiedade.</li>
@@ -382,7 +383,7 @@ Depressão: Crianças e adolescentes também podem experimentar sintomas de depr
         <div className={style.organiza}>
           <Card2 titulo='Problemas de Saúde Mental no Idoso' imagem={im50} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas de Saúde Mental no Idoso</h2>
             <p>Os problemas de saúde mental no idoso são uma preocupação significativa, uma vez que a população idosa está em constante crescimento em muitas partes do mundo. Várias questões podem contribuir para o surgimento e agravamento desses problemas, incluindo </p>
             <ul>
               <li> Depressão: A depressão é uma condição grave que pode afetar qualquer faixa etária, mas os idosos estão em risco particular devido a fatores como perda de entes queridos, isolamento social, problemas de saúde psicológicos e alterações hormonais. A depressão pode se manifestar de maneiras diferentes nos idosos, muitas vezes com queixas físicas em vez de sintomas emocionais.</li>
@@ -399,7 +400,7 @@ Depressão: Crianças e adolescentes também podem experimentar sintomas de depr
         <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Estresse no Trabalho e Burnout</h2>
             <p>O estresse no trabalho e o burnout são conceitos relacionados que se referem a problemas de saúde mental que podem ocorrer devido a condições desafiadoras no ambiente de trabalho. Embora compartilhem algumas semelhanças, eles têm características distintas.</p>
             <ul>
               <li> Estresse no Trabalho: 
@@ -426,7 +427,7 @@ O estresse pode diminuir quando as condições no ambiente de trabalho melhoram,
         <div className={style.organiza}>
           <Card2 titulo='Luto e Perda' imagem={im53} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Luto e Perda</h2>
             <p>Luto é uma resposta emocional à perda de algo significativo, como a morte de um ente querido, o fim de um relacionamento, a perda de um emprego, uma mudança drástica na vida ou até mesmo a perda de um animal de estimação. É um processo complexo e pessoal que envolve uma ampla gama de emoções, pensamentos e reações físicas.</p>
             <ul>
               <li> Negação : Uma pessoa pode ter dificuldade em aceitar a realidade da perda. Pode sentir-se entorpecido, como se aquilo não estivesse realmente acontecendo.</li>
@@ -443,7 +444,7 @@ O estresse pode diminuir quando as condições no ambiente de trabalho melhoram,
         <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Transtorno do Comportamento Sexual</h2>
             <p>Transtornos sexuais, também conhecidos como distúrbios sexuais ou disfunções sexuais, referem-se a uma ampla gama de dificuldades ou problemas persistentes que os indivíduos podem enfrentar relacionados à função sexual, desejo, excitação ou satisfação. Essas dificuldades podem causar sofrimento significativo e impactar negativamente a qualidade de vida e os relacionamentos de uma pessoa. É importante observar que enfrentar desafios sexuais ocasionais é comum e não necessariamente indicativo de um distúrbio. Contudo, quando essas dificuldades se tornam persistentes e angustiantes, podem ser classificadas como distúrbios sexuais.
 
 Aqui estão alguns exemplos de distúrbios sexuais comuns:</p>
@@ -465,7 +466,7 @@ Transtorno de Aversão Sexual : envolve extrema aversão e evitação de todo ou
 
             </ul>
           </div>
-          <Card2 titulo='' imagem={im54} />
+          <Card2 titulo='Transtorno do Comportamento Sexual' imagem={im54} />
         </div>
       </div>
 
@@ -475,7 +476,7 @@ Transtorno de Aversão Sexual : envolve extrema aversão e evitação de todo ou
         <div className={style.organiza}>
           <Card2 titulo='Problemas de Autoestima' imagem={im46} />
           <div className={style.texto}>
-            <h2>Sintomas</h2>
+            <h2>Problemas de Autoestima</h2>
             <p>Problemas de autoestima referem-se a sentimentos persistentes e negativos em relação a si mesmo, resultando em uma visão desvalorizada ou centrada em suas próprias habilidades, aparência, valor pessoal e potencial. A autoestima desempenha um papel crucial em nossa saúde mental e bem-estar emocional, pois afeta a forma como nos relacionamos com os outros, enfrentamos desafios e nos envolvemos com o mundo ao nosso redor.
 
 Abaixo estão algumas questões comuns relacionadas a problemas de autoestima</p>
@@ -495,7 +496,7 @@ Abaixo estão algumas questões comuns relacionadas a problemas de autoestima</p
         <div className={style.cards}>
         <div className={style.organiza}>
           <div className={style.texto}>
-            <h2>Dicas Extras</h2>
+            <h2>Desenvolvimento pessoal</h2>
             <p>Desenvolvimento pessoal refere-se ao processo contínuo de autodescoberta, aprimoramento de habilidades, crescimento emocional e evolução pessoal que uma pessoa busca ao longo de sua vida. Envolver o investimento consciente e ativo no próprio crescimento, tanto em termos de habilidades práticas quanto de desenvolvimento emocional e mental.
 
                Aqui estão alguns aspectos importantes do desenvolvimento pessoal:</p>

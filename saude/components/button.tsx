@@ -1,10 +1,11 @@
+import Link from "next/link";
 
 export default function Button({texto}: any) {
   return (
     <>
-     <button >
-        {texto}
-     </button>
+     
+      <Link href={'/contato'} ><button >{texto}</button></Link> 
+     
     </>
   )
 }

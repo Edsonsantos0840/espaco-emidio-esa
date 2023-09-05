@@ -1,0 +1,25 @@
+@media (min-width:200px){
+.mens{
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        margin: .5rem;
+        color: #470d0d;   
+}
+
+}
+@media (min-width:480px){
+    .mens{
+            padding: .5rem 3rem;
+    }
+    }
+    @media (min-width:768px){
+    .mens{
+            padding: .5rem .3rem;
+    }
+    }
+    @media (min-width:1024px){
+    .mens{
+            padding: .5rem 5rem;
+    }
+    }

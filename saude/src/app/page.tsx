@@ -1,6 +1,10 @@
+'use client'
 import style from '@/app/style/inicio.module.css'
 import Image from 'next/image'
+
+import {useState} from 'react'
 import Button from '../../components/button'
+import Button2 from '../../components/button2'
 import Card from '../../components/card'
 import im1 from './image/fibromialgia.png'
 import im2 from './image/estresse e Ansiedade.png'
@@ -13,6 +17,11 @@ import im8 from './image/10.png'
 
 
 export default function Inicio() {
+  const [mostra1 ,setMostra1]= useState(false)
+  const [mostra2 ,setMostra2]= useState(false)
+
+
+
   return (
     <main  >
       <div className={style.hea}>
@@ -21,7 +30,7 @@ export default function Inicio() {
           <h3>Determinação e satisfação em oferecer o melhor para nossos paciêntes</h3>
           <div className={style.but}>
             <Button texto={'Agende um Horário'} />
-            <Button texto={'Saiba Mais'} />
+            <Button2 texto={'Saiba Mais'} />
           </div>
         </div>
       </div>
@@ -31,11 +40,102 @@ export default function Inicio() {
         <h2 className={style.h2}>Áreas que Trabalhamos.</h2>
         <span>______________________________________________</span>
       </div>
+      
+                
+     
+      <div className={style.divide}>
+      <div className={style.contem} onMouseOver={()=> setMostra1(true ) } onMouseOut={()=> setMostra1(false )} >
+      <div>
+      <Card titulo=' Dores no corpo' imagem={im1}  />
+      </div>
+      <ul className={mostra1 ? style.exibe : style.esconde } >
+     <h2>Depressão, Traumas e Transtornos</h2>
+      
+            <li>Limitações na funcionalidade</li>
+            <li>Dificuldades no estudos</li>
+            <li>Alterações emocionais</li>
+            <li>Distúrbios do sono</li>
+            <li>pior desempenho no trabalho</li>
+            <li>Limitações funcionais</li>
+            <li>Uso excessivo de medicamentos</li>
+            <li>Impacto na saúde mental</li>
+            <li>Comprometimento emocional e relacional</li>
+            <li>Isolamento social</li>
+            <Button texto={'Agende um Horário'} />
+          </ul>
+      </div>
+      <div className={style.contem} onMouseOver={()=> setMostra2(true ) } onMouseOut={()=> setMostra2(false )} >
+      <div>
+      <Card titulo=' Dores no corpo' imagem={im2}  />
+      </div>
+      <ul className={mostra2 ? style.exibe : style.esconde } >
+     <h2>Depressão, Traumas e Transtornos</h2>
+      
+            <li>Limitações na funcionalidade</li>
+            <li>Dificuldades no estudos</li>
+            <li>Alterações emocionais</li>
+            <li>Distúrbios do sono</li>
+            <li>pior desempenho no trabalho</li>
+            <li>Limitações funcionais</li>
+            <li>Uso excessivo de medicamentos</li>
+            <li>Impacto na saúde mental</li>
+            <li>Comprometimento emocional e relacional</li>
+            <li>Isolamento social</li>
+            <Button texto={'Agende um Horário'} />
+          </ul>
+      </div>
+      
+      </div>
+      <div className={style.divide}>
+      <div className={style.contem} onMouseOver={()=> setMostra1(true ) } onMouseOut={()=> setMostra1(false )} >
+      <div>
+      <Card titulo=' Dores no corpo' imagem={im1}  />
+      </div>
+      <ul className={mostra1 ? style.exibe : style.esconde } >
+     <h2>Depressão, Traumas e Transtornos</h2>
+      
+            <li>Limitações na funcionalidade</li>
+            <li>Dificuldades no estudos</li>
+            <li>Alterações emocionais</li>
+            <li>Distúrbios do sono</li>
+            <li>pior desempenho no trabalho</li>
+            <li>Limitações funcionais</li>
+            <li>Uso excessivo de medicamentos</li>
+            <li>Impacto na saúde mental</li>
+            <li>Comprometimento emocional e relacional</li>
+            <li>Isolamento social</li>
+            <Button texto={'Agende um Horário'} />
+          </ul>
+      </div>
+      <div className={style.contem} onMouseOver={()=> setMostra2(true ) } onMouseOut={()=> setMostra2(false )} >
+      <div>
+      <Card titulo=' Dores no corpo' imagem={im2}  />
+      </div>
+      <ul className={mostra2 ? style.exibe : style.esconde } >
+     <h2>Depressão, Traumas e Transtornos</h2>
+      
+            <li>Limitações na funcionalidade</li>
+            <li>Dificuldades no estudos</li>
+            <li>Alterações emocionais</li>
+            <li>Distúrbios do sono</li>
+            <li>pior desempenho no trabalho</li>
+            <li>Limitações funcionais</li>
+            <li>Uso excessivo de medicamentos</li>
+            <li>Impacto na saúde mental</li>
+            <li>Comprometimento emocional e relacional</li>
+            <li>Isolamento social</li>
+            <Button texto={'Agende um Horário'} />
+          </ul>
+      </div>
+      
+      </div>
 
+              
       <section className={style.colunas }>
       
      <div className={style.dTela}>
-      <div className={style.alinha}>
+     <div className={style.organizando}>
+     <div className={style.alinha}>
      <h2>Dor muscular, dor crônica, tensão</h2>
       <div className={style.organiza}>
       <Card titulo=' Dores no corpo' imagem={im1} />
@@ -52,7 +152,6 @@ export default function Inicio() {
             <li>Isolamento social</li>
           </ul>
       </div>
-      <Button texto={'Agende um Horário'} />
      </div>
      <div className={style.alinha} >
      <h2>Estresse e Ansiedade</h2>
@@ -74,9 +173,12 @@ export default function Inicio() {
       <Button texto={'Agende um Horário'} />
      </div>
      </div>
+    
+     </div>
      <hr />
      <div className={style.dTela}>
-     <div className={style.alinha}>
+      <div className={style.organizando}>
+      <div className={style.alinha}>
      <h2>Recuperação de Lesões</h2>
       <div className={style.organiza}>
       <Card titulo=' Recuperação de Lesões' imagem={im3} />
@@ -112,11 +214,15 @@ export default function Inicio() {
             <li>Efeitos sobre a saúde física</li>
           </ul>
       </div>
-      <Button texto={'Agende um Horário'} />
+     
      </div>
+      </div>
+    
+     
      </div>
      <hr />
      <div className={style.dTela}>
+     <div className={style.organizando}>
      <div className={style.alinha}>
      <h2>Problemas de circulação sanguínea</h2>
       <div className={style.organiza}>
@@ -134,7 +240,7 @@ export default function Inicio() {
             <li>Disfunção erétil</li>
           </ul>
       </div>
-      <Button texto={'Agende um Horário'} />
+     
      </div>
      <div className={style.alinha} >
      <h2>Reabilitação e recuperação dos movimentos</h2>
@@ -156,9 +262,12 @@ export default function Inicio() {
       <Button texto={'Agende um Horário'} />
      </div>
      </div>
+     
+     </div>
      <hr />
      <div className={style.dTela}>
-     <div className={style.alinha} >
+      <div className={style.organizando}>
+      <div className={style.alinha} >
      <h2>Crescimento pessoal</h2>
       <div className={style.organiza}>
       <Card titulo=' Crescimento pessoal' imagem={im7} />
@@ -185,6 +294,8 @@ Lembre-se de que cada indivíduo é único, então encontrar a combinação cert
 
 </h4>
      </div>
+      </div>
+     
   </div>
   </section>
   <div className={style.divisor}>

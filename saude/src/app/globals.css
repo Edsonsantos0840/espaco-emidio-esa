@@ -7,8 +7,8 @@
 --primeira-cor: #1C5931;
 --segunda-cor: #124022;
 --terceira-cor: yellowgreen;
---letra1-cor: #124022;
---letra2-cor: #9BBFAB;
+--letra1-cor: rgb(170, 255, 0);
+--letra2-cor: #cbffdd;
 --letra3-cor: #5E8C72;
 
 }
@@ -25,4 +25,29 @@
 
   }
 }
+@media (min-width:200px){
 
+}
+@media (min-width:320px){
+   
+ 
+}
+@media (min-width:480px){
+ 
+}  
+@media (min-width:768px){
+ 
+}
+@media (max-height:450px) and (min-width:768px){
+
+}
+@media (min-width:900px){
+  
+
+}
+@media (min-width:1024px){
+
+}
+@media (min-width:1224px){
+   
+}
