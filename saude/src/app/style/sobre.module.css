@@ -1,113 +1,566 @@
-.container{
-    z-index: 0;
-    position: relative;
-    background-position-y: 7rem;
-    padding-top: 7rem;
-    background-image: url('.././image/17.png');
-    background-size: 99.7%;
-    background-repeat: no-repeat;
-  
-}
-.historia{
-    text-align: center;
-    background-image: linear-gradient(to bottom, rgba(25, 53, 0, 0.6), rgba(28, 51, 1, 0.46), rgba(13, 40, 0, 0.07));
-   
-    position: relative;
-}
-.marca h1{
-    padding-top: -1.5rem;
-    font-size: 4rem;
-    color: var(--letra2-cor);
-    text-shadow: 2px 2px 3px #000000b3;
-}
-.marca span{
-    font-size: 3rem;
-    color: var(--letra1-cor);
-}
-.marca p{
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: var(--letra2-cor);
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.paragrafo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    padding: 5px;
-    width: 70%;
-    color: white;
-    text-align: center;
-    margin: auto;
-    text-shadow: 1px 1px 10px #000000b3;
-}
-.cont{
-    display: flex;
-    justify-content: center;
-   margin-top: 1.3rem;
-}
-.car{
-    height: 31rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 35%;
-    padding: 20px;
-    background-image: linear-gradient(to bottom, rgba(223, 248, 207, 0.437), rgba(234, 255, 220, 0.705), rgba(214, 251, 193, 0.819), rgba(215, 255, 194, 0.967));
-    margin: auto;
-    border-radius: 8px 8px 0px 0px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
-}
-.car img{
-    margin: auto;
-}
-.car h2{
-    font-size: 2.5rem;
-    color: var(--terceira-cor);
-    text-shadow: 2px 2px 3px #000000b3;
-}
-.car p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    color: var(--segunda-cor);
-}
-.car button {
-    background-color: yellowgreen;
-    color:  rgb(255, 255, 255);
-    font-size: 1.5rem;
-    width:85%;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
-    margin: 1.6rem auto;
-    }
-.car button:hover{
-    background-color: rgb(219, 239, 200);
-    color: yellowgreen;
-    border: 1px solid yellowgreen;
-}
-@media (min-width:200px){
 
+@media (min-width:200px){
+    .container{
+        z-index: 0;
+        position: relative;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+        background-repeat: no-repeat;
+      
+    }
+    .historia{
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(25, 53, 0, 0.6), rgba(28, 51, 1, 0.46), rgba(13, 40, 0, 0.07));
+       
+        position: relative;
+    }
+    .marca h1{
+        font-size: 2rem;
+        color: var(--letra2-cor);
+        text-shadow: 2px 2px 3px #000000b3;
+    }
+    .marca span{
+        font-size: 1.7rem;
+        color: var(--letra1-cor);
+    }
+    .marca p{
+        font-weight: 600;
+        font-size: .7rem;
+        color: var(--letra2-cor);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 22%;
+    }
+    .paragrafo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .8em;
+        padding: 5px;
+        width: 70%;
+        color: white;
+        text-align: center;
+        margin: auto;
+        text-shadow: 1px 1px 10px #000000b3;
+    }
+    .cont{
+        display: block;
+       margin-top: 1rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+        padding: 10px;
+        background-image: linear-gradient(to bottom, rgb(199 253 164 / 62%), rgb(211 255 181 / 71%), rgb(185 250 148 / 82%), rgb(165 255 117 / 97%));
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.49);
+        margin: 1rem auto;
+    }
+    .car img{
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.3rem;
+        color: var(--terceira-cor);
+        text-shadow: 2px 2px 3px #000000b3;
+    }
+    .car p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .8rem;
+        color: var(--segunda-cor);
+        text-align: center;
+    }
+    .car button {
+        background-color: yellowgreen;
+        color:  rgb(255, 255, 255);
+        font-size: 1.3rem;
+        width:100%;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
+        padding: 0.2rem 0.6rem;
+        margin: 1rem auto;
+        }
+    .car button:hover{
+        background-color: rgb(219, 239, 200);
+        color: yellowgreen;
+        border: 1px solid yellowgreen;
+    }
 }
 @media (min-width:320px){
-   
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 2.5rem;
+        font-size: 2.6rem;
+    }
+    .marca span{
+        font-size: 2.5rem;
+    }
+    .marca p{
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        font-size: .8rem;
+        margin-bottom: 17%;
+    }
+    .paragrafo{
+        font-size: .8rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: block;
+        margin-top: 1rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        gap: 0px;
+        width: 95%;
+        padding: 15px;
+        margin:1rem auto;
+    }
+    .car img{
+        margin: auto;
+        width: 150px;
+    }
+    .car h2{
+        text-align: center;
+        font-size: 2.8rem;
+        margin: .3rem;
+    }
+    .car p{
+        font-size: .8rem;
+        margin: .3rem;
+    }
+    .car button {
+        font-size: 1.3rem;
+        width:100%;
+        margin: .5rem auto;
+        }
  
 }
 @media (min-width:480px){
- 
+  .marca p{
+        margin-bottom: 26%;
+    }  
 }  
 @media (min-width:768px){
- 
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 10%;
+        font-size: 5rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.5rem;
+        margin-bottom: 16%;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        width: 46%;
+        padding: 10px;
+        margin:1rem  auto;
+    }
+    .car img{
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+        margin: .3rem;
+    }
+    .car p{
+        font-size: .9rem;
+        margin: .3rem;
+    }
+    .car button {
+        font-size: 1.3rem;
+        width:100%;
+        margin: .6rem auto;
+        }
 }
-@media (max-height:450px) and (min-width:768px){
+@media (min-height: 280px) and (orientation: landscape){
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 10%;
+        font-size: 5rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.5rem;
+        margin-bottom: 10%;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        width: 46%;
+        padding: 10px;
+        margin:1rem  auto;
+    }
+    .car img{
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+        margin: .3rem;
+    }
+    .car p{
+        font-size: .9rem;
+        margin: .3rem;
+    }
+    .car button {
+        font-size: 1.3rem;
+        width:100%;
+        margin: .6rem auto;
+        }
+}
+@media (min-height: 360px) and (orientation: landscape){
+    .marca p{
+        font-size: 1.5rem;
+        margin-bottom: 17%;
+    }
 
 }
+@media (min-height: 414px) and (orientation: landscape){
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 10%;
+        font-size: 5rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.5rem;
+        margin-bottom: 17%;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        width: 46%;
+        padding: 10px;
+        margin:1rem  auto;
+    }
+    .car img{
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+        margin: .3rem;
+    }
+    .car p{
+        font-size: .9rem;
+        margin: .3rem;
+    }
+    .car button {
+        font-size: 1.3rem;
+        width:100%;
+        margin: .6rem auto;
+    }
+   
+}
+@media (min-height: 800px) and (orientation: landscape){
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 10%;
+        font-size: 5rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.5rem;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        width: 46%;
+        padding: 10px;
+        margin:1rem  auto;
+    }
+    .car img{
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+        margin: .3rem;
+    }
+    .car p{
+        font-size: .9rem;
+        margin: .3rem;
+    }
+    .car button {
+        font-size: 1.3rem;
+        width:100%;
+        margin: .6rem auto;
+        }
+}
 @media (min-width:900px){
-  
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 10%;
+        font-size: 5rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.5rem;
+        margin-bottom: 19%;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        width: 46%;
+        padding: 10px;
+        margin:1rem  auto;
+    }
+    .car img{
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+        margin: .3rem;
+    }
+    .car p{
+        font-size: .9rem;
+        margin: .3rem;
+    }
+    .car button {
+        font-size: 1.3rem;
+        width:100%;
+        margin: .6rem auto;
+        }
 
 }
 @media (min-width:1024px){
-
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+    .marca h1{
+        padding-top: 17%;
+        font-size: 6rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.8rem;
+        margin-bottom: 10%;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        gap: 10px;
+        width: 46%;
+        padding: 20px;
+        margin: 1rem auto;
+    }
+    .car img{
+        width: 200px;
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+    }
+    .car p{
+        font-size: 1.1rem;
+    }
+    .car button {
+        font-size: 1.5rem;
+        width:100%;
+        margin: 1.6rem auto;
+        }
 }
 @media (min-width:1224px){
-   
-}
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/17.png');
+        background-size: 99.7%;
+      
+    }
+    .historia{
+        text-align: center;
+    }
+     .marca h1{
+        padding-top: 17%;
+        font-size: 6rem;
+    }
+    .marca span{
+        font-size: 4rem;
+    }
+    .marca p{
+        font-size: 1.8rem;
+        margin-bottom: 16%;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+       margin-top: 1.3rem;
+    }
+    .car{
+        height: auto;
+        display: flex;
+        gap: 10px;
+        width: 46%;
+        padding: 20px;
+        margin: 1rem auto;
+    }
+    .car img{
+        width: 200px;
+        margin: auto;
+    }
+    .car h2{
+        font-size: 2.5rem;
+    }
+    .car p{
+        font-size: 1.1rem;
+    }
+    .car button {
+        font-size: 1.5rem;
+        width:100%;
+        margin: 1.6rem auto;
+        }
+    }

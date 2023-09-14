@@ -1,81 +1,447 @@
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 35, 0);
-    padding: 10px;
-}
-.container h1{
-    margin-left: 1rem;
-    font-size: 2.2rem;
-    font-weight: 700;
-    font-family: 'Caveat', cursive;
-    color: var(--letra2-cor);
-}
-.container h1 span{
-    color: yellowgreen;
-}
-.container p{
-    font-size: .7rem;
-    color: yellowgreen;
-    margin-left: 1rem;
-}
-.container .icone {
-    display: flex;
-    justify-content: center;
-    gap: 4%;  
-    cursor: pointer;
-    font-size: 2rem;
-    color: #cbffdd;
-   
-}
-.container .icone a:hover{
-    transform: scale(1.5);
-}
-.icone p{
-    width: 400px;
-    font-size: 1.3rem;
-    margin-left: 0rem;
-}
-.container nav{
-    display: flex;
-    gap: 20px;
-    padding: 0px 10px;
-    font-size: 1.5rem;
-}
-.container nav a{  
-    padding: 5px 12px;
-   color: var(--letra2-cor) ;
-   border-radius: 5px;
-}
-.container nav a:hover{  
-   background-color: var(--letra2-cor) ;
-   color:  var(--segunda-cor);
-}
-@media (min-width:200px){
 
+@media (min-width:200px){
+    .container{
+        background-color: rgb(0, 35, 0);
+        padding: 10px;
+    }
+    .container .sepFooter h1{
+        text-align: center;
+    }
+    .container .sepFooter p{
+        text-align: center;
+    }
+    .container h1{
+        margin-left: 1rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: 'Caveat', cursive;
+        color: var(--letra2-cor);
+    }
+    .container h1 span{
+        color: yellowgreen;
+    }
+    .container p{
+        font-size: .8rem;
+        color: yellowgreen;
+        margin-left: 1rem;
+    }
+    .container .icone {
+        display: flex;
+        justify-content: flex-start;
+        cursor: pointer;
+        font-size: 1.4rem;
+        color: #cbffdd;
+        margin-left: 1rem;
+    }
+    .container .icone a:hover{
+        transform: scale(1.5);
+    }
+    .icone p{
+        text-align: inherit;
+        width: 274px;
+        font-size: 1.3rem;
+        margin-left: 0rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        cursor: pointer;
+        font-size: 1.8rem;
+        color: #cbffdd;
+        margin-top: -5%;
+    }
+    .container .icone a:hover{
+        transform: scale(1.5);
+    }
+
+    .container nav{
+        display: none;
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.3rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+       color: var(--letra2-cor) ;
+       border-radius: 5px;
+    }
+    .container nav a:hover{  
+       background-color: var(--letra2-cor) ;
+       color:  var(--segunda-cor);
+    }
 }
 @media (min-width:320px){
-   
+    .container{
+        background-color: rgb(0, 35, 0);
+        padding: 10px;
+    }
+    .container .sepFooter{
+        display: block;
+        margin: auto;
+    }
+    .container h1{
+        
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family: 'Caveat', cursive;
+        color: var(--letra2-cor);
+    }
+    .container h1 span{
+        color: yellowgreen;
+    }
+    .container p{
+        text-align: center;
+        font-size: .8rem;
+        color: yellowgreen;
+        margin-left: 1rem;
+    }
+    .container .icone {
+        display: flex;
+        justify-content: flex-start;
+        gap: 4%;
+        cursor: pointer;
+        font-size: 1.6rem;
+        color: #cbffdd;
+        margin-left: 1rem;
+    }
+    .container .icone a:hover{
+        transform: scale(1.5);
+    }
+    .icone p{
+        text-align: inherit;
+        width: 274px;
+        font-size: 1rem;
+        margin-left: 0rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        cursor: pointer;
+        font-size: 1.4rem;
+        color: #cbffdd;
+        margin-top: -0%;
+    }
+    .container nav{
+        display: none;
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+       color: var(--letra2-cor) ;
+       border-radius: 5px;
+    }
+    .container nav a:hover{  
+       background-color: var(--letra2-cor) ;
+       color:  var(--segunda-cor);
+    }
  
 }
 @media (min-width:480px){
  
 }  
 @media (min-width:768px){
- 
+    .container{
+        padding: 10px;
+        display: block;
+    }
+    .separa{
+      
+    }
+    .container h1{
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+    .container p{
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+    .container .icone {
+        font-size: 2.5rem;
+    }
+    .icone p{
+        width: 400px;
+        font-size: 1.7rem;
+        margin-left: 0rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #cbffdd;
+        margin-top: -2%;
+    }
+    .container nav{
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+    }
 }
-@media (max-height:450px) and (min-width:768px){
-
-}
+@media (min-height: 280px) and (orientation: landscape){
+    .container{
+        background-color: rgb(0, 35, 0);
+        padding: 10px;
+    }
+    .container .sepFooter{
+        display: block;
+        margin: auto;
+    }
+    .container h1{
+        margin-left: 1rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        font-family: 'Caveat', cursive;
+        color: var(--letra2-cor);
+    }
+    .container h1 span{
+        color: yellowgreen;
+    }
+    .container p{
+        text-align: center;
+        font-size: .8rem;
+        color: yellowgreen;
+        margin-left: 1rem;
+    }
+    .container .icone {
+        display: flex;
+        justify-content: flex-start;
+        gap: 4%;
+        cursor: pointer;
+        font-size: 1.4rem;
+        color: #cbffdd;
+        margin-left: 1rem;
+    }
+    .container .icone a:hover{
+        transform: scale(1.5);
+    }
+    .icone p{
+        text-align: inherit;
+        width: 274px;
+        font-size: 1.1rem;
+        margin-left: 0rem;
+    }
+    .container nav{
+        display: none;
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+       color: var(--letra2-cor) ;
+       border-radius: 5px;
+    }
+    .container nav a:hover{  
+       background-color: var(--letra2-cor) ;
+       color:  var(--segunda-cor);
+    }
+    .container .icone {
+        font-size: 2rem;
+    }
+    .icone p{
+        width: 400px;
+        font-size: 1.3rem;
+        margin-left: 0rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #cbffdd;
+        margin-top: -2%;
+    }
+ }
+ @media (min-height: 414px) and (orientation: landscape){
+    .container{
+        padding: 10px;
+        display: block;
+    }
+    .separa{
+      
+    }
+    .container h1{
+        margin-left: 1rem;
+        font-size: 1.6rem;
+    }
+    .container p{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .container .icone {
+        font-size: 2rem;
+    }
+    .icone p{
+        width: 400px;
+        font-size: 1.3rem;
+        margin-left: 0rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #cbffdd;
+        margin-top: -2%;
+    }
+    .container nav{
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+    }
+    
+ }
+ @media (min-height: 800px) and (orientation: landscape){
+    .container{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .container .sepFooter{
+        display: block;
+        margin: auto;
+    }
+  
+    .container h1{
+        margin-left: 0rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .container p{
+        font-size: 1rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .container .icone {
+        gap: 6%;
+        font-size: 2.5rem;
+        margin-left: 0px;
+    }
+    .icone p{
+        width: 296px;
+        font-size: 1.3rem;
+        margin-left: 0rem;
+    }
+    .container nav{
+        display: flex;
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+    }
+ }
 @media (min-width:900px){
   
 
 }
 @media (min-width:1024px){
-
+    .container{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .container .sepFooter{
+        display: block;
+        margin: auto;
+    }
+  
+    .container h1{
+        margin-left: 0rem;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .container p{
+        font-size: .9rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .container .icone {
+        gap: 0%;
+        font-size: 1.7rem;
+        margin-left: 5px;
+    }
+    .icone p{
+        width: 290px;
+        font-size: 1.1rem;
+        margin-left: 0rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #cbffdd;
+        margin-top: -2%;
+    }
+    .container .ico svg:hover {
+        transform: scale(1.5);
+    }
+    .container nav{
+        display: flex;
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+    }
 }
 @media (min-width:1224px){
-   
+    .container{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .container h1{
+        margin-left: 1.2rem;
+        font-size: 2.2rem;
+    }
+    .container p{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .container .icone {
+        gap: 0%;
+        font-size: 2rem;
+    }
+    .container .ico {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #cbffdd;
+        margin-top: -2%;
+    }
+    .icone p{
+        width: 310px;
+        font-size: 1.2rem;
+        margin-left: 0rem;
+    }
+    .container nav{
+        gap: 20px;
+        padding: 0px 10px;
+        font-size: 1.5rem;
+    }
+    .container nav a{  
+        padding: 5px 12px;
+    }
 }

@@ -1,42 +1,89 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.container h4{
-    font-size: 2rem;
-    color: var(--terceira-cor);
-    text-align: center;
-}
-.container img{
-    width: 70%;
-    border-radius: 5px;
-    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.2);
-}
-@media (min-width:200px){
 
+@media (min-width:200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start
+    }
+    .container h4{
+        font-size: 1.3rem;
+        color: var(--terceira-cor);
+        text-align: center;
+    }
+    .container img{
+        width: 95%;
+        border-radius: 5px;
+        box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.2);
+    }
 }
 @media (min-width:320px){
-   
+    .container h4{
+        font-size: 1.5rem;
+    }
+    .container img{
+        width: 100%;
+    }
  
 }
 @media (min-width:480px){
  
 }  
 @media (min-width:768px){
- 
+    .container h4{
+        font-size: 1.5rem;
+    }
+    .container img{
+        width: 80%;
+    }
 }
-@media (max-height:450px) and (min-width:768px){
-
+@media (min-height: 280px) and (orientation: landscape){
+    .container h4{
+        font-size: 1.5rem;
+    }
+    .container img{
+        width: 80%;
+    }
+}
+@media (min-height: 414px) and (orientation: landscape){
+    .container h4{
+        font-size: 1.5rem;
+    }
+    .container img{
+        width: 70%;
+    }
+   
+}
+@media (min-height: 800px) and (orientation: landscape){
+    .container h4{
+        font-size: 1.5rem;
+    }
+    .container img{
+        width: 70%;
+    }
 }
 @media (min-width:900px){
-  
+    .container h4{
+        font-size: 1.6rem;
+    }
+    .container img{
+        width: 85%;
+    }
 
 }
 @media (min-width:1024px){
-
+    .container h4{
+        font-size: 1.6rem;
+    }
+    .container img{
+        width: 85%;
+    }
 }
 @media (min-width:1224px){
-   
+    .container h4{
+        font-size: 1.6rem;
+    }
+    .container img{
+        width: 85%;
+    }
 }

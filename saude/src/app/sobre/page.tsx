@@ -11,11 +11,9 @@ export default function pisicologia() {
         <h1>Espaço <span>Emídio & Sá</span></h1>
         <p>Bem-vindos ao Espaço Emídio e Sà - O Equilíbrio para o Corpo e Mente!</p>
        </div>
-       {/* <div className={style.paragrafo}>
-        <p>É com grande satisfação que apresentei a vocês o Espaço Emídio e Sà, um lugar dedicado a promover o bem-estar integral por meio da massoterapia e da psicologia. Reconhecemos a importância de cuidar tanto do corpo quanto da mente</p>
-        <p>No Espaço Emídio e Sà, baseia-se na conexão profunda entre o corpo e a mente. Nossa abordagem holística combina massoterapia e psicologia para proporcionar uma experiência completa de autocuidado. Entendemos que o equilíbrio emocional está intrinsecamente ligado ao bem-estar físico e vice-versa.</p>
-        
-       </div> */}
+      
+       
+       </div>
        <div className={style.cont}>
         <div className={style.car}>
           <h2>Psicologia</h2>
@@ -31,7 +29,6 @@ export default function pisicologia() {
         </div>
        
        </div>
-       </div>
     </div>
   )
-}
+  }

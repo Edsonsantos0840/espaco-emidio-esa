@@ -8,11 +8,12 @@ export default function Footer() {
   return (
     <footer >
        <div className={style.container}>
+       <div className={style.sepFooter}>
        <div className={style.marca}>
         <h1>Espaço <span>Emídio & Sá</span></h1>
        <p>CUIDANDO DE SUA SAÚDE</p>
-       </div>
-       <div className={style.icone}>
+       </div><br />
+       <div className={style.ico}>
         <Link  href={'https://www.facebook.com/profile.php?id=100095584324495&mibextid=LQQJ4d'} target='blank'><span><BsFacebook/></span></Link>
         <Link  href={'https://www.instagram.com/espaco_emidiosa.sx/'} target='blank'> <span><BsInstagram/></span> </Link>
         <Link  href={'https://wa.me/5519991062455?text=Ol%C3%A1+visitei+seu+site%2C+quero+um+or%C3%A7amento.'} target='blank'> <span><BsWhatsapp/></span> </Link>
@@ -26,23 +27,25 @@ export default function Footer() {
         <Link href={'/contato'}>Contato</Link>
        </nav>
        </div>
+      
+       </div>
        <hr />
        <div className={style.container}>
-       <div>
+       <div className={style.separa}>
         <h1>Endereço:</h1>
        <div  className={style.icone}>
        <Link  href={'https://goo.gl/maps/ZGWVF4kh82wWjVMX9'} target='blank'><span>< FaMapMarked /> </span></Link>
        <p>Rua Dr. João Mascarenhas Neves, 67 - Jardim Bonfim</p>
        </div>
        </div>
-       <div >
+       <div className={style.separa}>
         <h1>Telefone:</h1>
        <div className={style.icone}>
        <Link  href={'https://wa.me/5519991062455?text=Ol%C3%A1+visitei+seu+site%2C+quero+um+or%C3%A7amento.'} target='blank'><span><BsFillTelephoneFill/> </span></Link>
         <p>19 99106-2455</p>
        </div>
        </div>
-       <div >
+       <div className={style.separa}>
         <h1>Horário de Atendimento:</h1>
         <div className={style.icone}>
         <span><BsFillAlarmFill/>  </span>

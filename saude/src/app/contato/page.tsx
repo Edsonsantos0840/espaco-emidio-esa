@@ -84,8 +84,11 @@ export default function Contato(){
         </div>
 
       </div>
+    
+
+     </div>
      <form className={style.form} onSubmit={captura} >
-          <h1>Peça um orçamento</h1>
+          <h1>Agende um Horário</h1>
         <label>
          <div className={style.ong} >
           <span><FaUserAlt className={style.icons} /></span> <span>*Nome:</span>
@@ -132,8 +135,6 @@ export default function Contato(){
         <button >Enviar</button>
         <Mensagem  mens={recado}  />
         </form>
-
-     </div>
     </div>
   )
-}
+  }

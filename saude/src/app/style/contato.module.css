@@ -1,156 +1,1256 @@
-.container{
-    z-index: 0;
-    position: relative;
-    background-position-y: 7rem;
-    padding-top: 7rem;
-    background-image: url('.././image/1.png');
-    background-size: 99.7%;
-    background-repeat: no-repeat;
-    height: auto;
-}
-.sombra{
-    display: flex;    
-    align-items: center;
-    width: 98vw;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.43), rgba(0, 104, 0, 0.545), rgba(2, 126, 2, 0.694));
-    min-height: 500px;
-}
-.social{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 5rem;
-    color: #cbffdd;
-    margin-top: -12%;
-}
-.social img{
-    width: 100%;
-    cursor: pointer;
-}
-.social h1{
-    margin-top: -27%;
-    font-size: 4rem;
-    font-weight: 700;
-    font-family: 'Caveat', cursive;
-    color: #cbffdd;
-}
-.social h1 span{
-    color: rgb(170, 255, 0);
-}
-.icone{
-    display: flex;
-    justify-content: center;
-    gap: 5%;  
-    cursor: pointer;
-    margin-top: -5%;
-}
-.icone a:hover{
-    transform: scale(1.5);
-}
-.form {
-    margin: 1rem;
-    width: 80%;
-    background-color: #ffffff4a;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.297);
-    border-radius: 15px 15px 0px 0px;
-    padding: 20px;
-}
-.form h1{
-    font-size: 3rem;
-    color: var(--letra1-cor);
-    text-align: center;
-    padding: 0px;
-    margin-top: -2rem;
-}
-.form p{
-    font-size: 1.3rem;
-    color: var(--letra2-cor);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-bottom: -1rem;
-}
-.ong {
-    display: flex;
-    gap: 25%;
-    margin-top: 0.5rem;
-}
-.ong span{
-    color:  var(--segunda-cor);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    cursor: pointer;
-}
 
- .form label input {
-    width: 99%;
-    height: 30px;
-    border-radius: 5px;
-    border: .2px solid rgb(91, 90, 90);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
- .form label select {
-    width: 99%;
-    height: 30px;
-    border-radius: 5px;
-    border: .2px solid rgb(91, 90, 90);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.form label textarea {
-    width: 100%;
-    height: 100px;
-    border-radius: 5px;
-}
-
-.ico {
-    background-color: var(--letra2-cor);
-    padding: 3rem;
-    margin: auto;
-    width: 100%;
-}
-.form button{
-    background-color: var(--letra1-cor);
-    padding: 3px 25px;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.375);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: .5rem 0rem;
-}
-.form button:hover{
-    background-color: white;
-    color:  var(--segunda-cor) ;
-    border: 1px solid var(--primeira-cor);
-    transform: scale(1.2);
-  
-}
 @media (min-width:200px){
-
+    .container{
+        z-index: 0;
+        position: relative;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 110%;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    .sombra{
+        display: flex;
+        align-items: center;
+        width: 99.7vw;
+        background-image: linear-gradient(to right, rgba(0, 128, 0, 0.43), rgba(0, 104, 0, 0.545), rgba(2, 126, 2, 0.694));
+        min-height: 236px;
+    }
+    .social{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.4rem;
+        color: #cbffdd;
+        margin-top: -12%;
+    }
+    .social img{
+        margin: auto;
+        padding-top: 7%;
+        width: 50%;
+    }
+    .social h1{
+        margin-top: -19%;
+        font-size: 2.4rem;
+        font-weight: 700;
+        font-family: 'Caveat', cursive;
+        color: #cbffdd;
+    }
+    .social h1 span{
+        color: rgb(170, 255, 0);
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -1%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 1rem auto;
+        width: 90%;
+        background-color: #135d0887;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.297);
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+    }
+    .form h1{
+        color: var(--letra1-cor);
+        font-family: cursive;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        color: var(--letra2-cor);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    .ong span{
+        color:  #fbfffc;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+     .form label input {
+        width: 99%;
+        height: 20px;
+        border-radius: 5px;
+        border: .2px solid rgb(91, 90, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 20px;
+        border-radius: 5px;
+        border: .2px solid rgb(91, 90, 90);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        background-color: var(--letra2-cor);
+        padding: 2rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        background-color: var(--letra1-cor);
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.375);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: .5rem 0rem;
+    }
+    .form button:hover{
+        background-color: white;
+        color:  var(--segunda-cor) ;
+        border: 1px solid var(--primeira-cor);
+        transform: scale(1.2);
+      
+    }
 }
-@media (min-width:320px){
-   
+@media (min-width:376px){
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 111%;
+    }
+    .sombra{
+        display: block; 
+        width: 99.7vw;
+        min-height: 296px;
+    }
+    .social{
+        width: 100%;
+        font-size: 3rem;
+        margin-top: -12%;
+    }
+    .social img{
+        margin: auto;
+        padding-top: 7%;
+        width: 50%;
+    }
+    .social h1{
+        margin-top: -19%;
+        font-size: 3.1rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -3%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 2rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
  
 }
-@media (min-width:480px){
- 
+@media (min-width:410px){
+    .container{
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 111%;
+    }
+    .sombra{
+        display: block; 
+        width: 99.7vw;
+        min-height: 312px;
+    }
+    .social{
+        width: 100%;
+        font-size: 3rem;
+        margin-top: -12%;
+    }
+    .social img{
+        margin: auto;
+        padding-top: 7%;
+        width: 50%;
+    }
+    .social h1{
+        margin-top: -19%;
+        font-size: 3.1rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -3%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 2rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
 }  
-@media (min-width:768px){
- 
+@media (min-width:480px){
+    .sombra{
+        display: block; 
+        width: 99.7vw;
+        min-height: 408px;
+    }  
+    .social img{
+        margin: auto;
+        padding-top: 15%;
+        width: 75%;
+    }
+    .social h1{
+        margin-top: -22%;
+        font-size: 3.7rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -1%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 2.5rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
 }
-@media (max-height:450px) and (min-width:768px){
-
+@media (min-width:768px){
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 110%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 641px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 3.5rem;
+        margin-top: -12%;
+    }
+    .social img{
+        width: 90%;
+        padding-top: 30%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 3.5rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.3rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
+}
+@media (min-width:820px){
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 110%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 643px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 3.5rem;
+        margin-top: -12%;
+    }
+    .social img{
+        width: 90%;
+        padding-top: 30%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 3.5rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
+}
+@media (min-height: 280px) and (orientation: landscape){
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 120%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 502px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 2.7rem;
+        margin-top: -29%;
+    }
+    .social img{
+        width: 55%;
+        padding-top: 26%;
+    }
+    .social h1{
+        margin-top: -22%;
+        font-size: 2.5rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -2%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.1rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
+}
+@media (min-height: 360px) and (orientation: landscape){
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 130%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 524px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 2.8rem;
+        margin-top: -12%;
+    }
+    .social img{
+        width: 75%;
+        padding-top: 7%;
+    }
+    .social h1{
+        margin-top: -25%;
+        font-size: 2.8rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d08ad;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 6px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 20%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
+}
+@media (min-height: 414px) and (orientation: landscape){
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 120%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 643px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 3rem;
+        margin-top: -33%;
+    }
+    .social img{
+        width: 90%;
+        padding-top: 35%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 3rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.2rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 20%;
+        margin-top: 0.1rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
+   
+}
+@media (min-height: 800px) and (orientation: landscape){
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 110%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 643px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 3.5rem;
+        margin-top: -12%;
+    }
+    .social img{
+        width: 90%;
+        padding-top: 30%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 3.5rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
 }
 @media (min-width:900px){
-  
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 110%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 643px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 3.5rem;
+        margin-top: -29%;
+    }
+    .social img{
+        width: 90%;
+        padding-top: 30%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 3.5rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
 
 }
 @media (min-width:1024px){
-
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 110%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 643px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 3.5rem;
+        margin-top: -20%;
+    }
+    .social img{
+        width: 90%;
+        padding-top: 30%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 3.5rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
 }
 @media (min-width:1224px){
-   
+    .container{
+        display: flex;
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('.././image/1.png');
+        background-size: 100%;
+    }
+    .sombra{
+        display: flex;    
+        align-items: flex-start;
+        width: 99.7vw;
+        height: 632px;
+        background-image: none;
+        background-color: #135d0887;
+    }
+    .social{
+        width: 100%;
+        font-size: 4rem;
+        margin-top: -21%;
+    }
+    .social img{
+        width: 100%;
+        padding-top: 40%;
+    }
+    .social h1{
+        margin-top: -27%;
+        font-size: 4rem;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        gap: 5%;  
+        cursor: pointer;
+        margin-top: -5%;
+    }
+    .icone a:hover{
+        transform: scale(1.5);
+    }
+    .form {
+        margin: 0rem auto;
+        background-color: #135d0887;
+        box-shadow: none;
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        padding: 20px;
+        height: 632px;
+    }
+    .form h1{
+        font-family: cursive;
+        font-size: 2.9rem;
+        text-align: center;
+        padding: 0px;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 3px #0000008f;
+    }
+    .form p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .ong {
+        display: flex;
+        gap: 25%;
+        margin-top: 0.5rem;
+    }
+    
+    
+     .form label input {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+     .form label select {
+        width: 99%;
+        height: 30px;
+        text-align: center;
+    }
+    
+    .form label textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .ico {
+        padding: 3rem;
+        margin: auto;
+        width: 100%;
+    }
+    .form button{
+        padding: 3px 25px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        margin: .5rem 0rem;
+    }
 }
 
